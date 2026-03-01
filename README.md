@@ -112,8 +112,8 @@ flowchart LR
 | Fallback extraction | `ministral-14b-latest` |
 | Rule reasoning and mismatch interpretation | `magistral-medium-latest` |
 | Chat/report/sandbox synthesis | `mistral-large-latest` |
-| Primary STT | `voxtral-mini-latest` |
-| Voice narration + optional STT fallback | ElevenLabs (`eleven_multilingual_v2`, configurable voices) |
+| Primary STT | `voxtral-mini-latest` | supports english and Hindi
+| Voice narration + Tamil STT fallback | ElevenLabs (`eleven_multilingual_v2`, configurable voices) |
 
 ---
 
