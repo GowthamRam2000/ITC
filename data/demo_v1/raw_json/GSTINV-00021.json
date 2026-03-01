@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00021",
+  "invoice_no": "INV/26/00021",
+  "invoice_date": "2026-02-09",
+  "supplier_name": "LOKE, BORA AND GARG",
+  "supplier_gstin": "09EPQMC3368K7ZV",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 1,
+      "unit_price": 3931.44,
+      "taxable_value": 3931.44,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1100.8
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 5,
+      "unit_price": 2829.03,
+      "taxable_value": 14145.15,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2546.13
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 9,
+      "unit_price": 7032.89,
+      "taxable_value": 63296.01,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11393.28
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 11,
+      "unit_price": 7405.3,
+      "taxable_value": 81458.3,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4072.92
+    }
+  ],
+  "taxable_value": 162830.9,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 19113.13,
+  "total_tax": 19113.13,
+  "invoice_total": 181944.03,
+  "effective_rate": 11.74,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00021.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

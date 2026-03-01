@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00301",
+  "invoice_no": "INV/26/00301",
+  "invoice_date": "2026-01-06",
+  "supplier_name": "DOSHI, TANDON AND BANSAL",
+  "supplier_gstin": "08LJNPN3244O8ZQ",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 1185.3,
+      "taxable_value": 10667.7,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1280.12
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 3,
+      "unit_price": 8232.11,
+      "taxable_value": 24696.33,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4445.34
+    }
+  ],
+  "taxable_value": 35364.03,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 5725.46,
+  "total_tax": 5725.46,
+  "invoice_total": 41089.49,
+  "effective_rate": 16.19,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00301.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 5725.46
+}

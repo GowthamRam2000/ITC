@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00249",
+  "invoice_no": "INV/26/00249",
+  "invoice_date": "2026-02-05",
+  "supplier_name": "GHOSE PLC",
+  "supplier_gstin": "36NOLOX3723J1Z9",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 3,
+      "unit_price": 5304.12,
+      "taxable_value": 15912.36,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2864.22
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 12,
+      "unit_price": 4605.95,
+      "taxable_value": 55271.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6632.57
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 3,
+      "unit_price": 7153.6,
+      "taxable_value": 21460.8,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2575.3
+    }
+  ],
+  "taxable_value": 92644.56,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 12072.09,
+  "total_tax": 12072.09,
+  "invoice_total": 104716.65,
+  "effective_rate": 13.03,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00249.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

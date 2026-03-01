@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00264",
+  "invoice_no": "INV/26/00264",
+  "invoice_date": "2026-01-27",
+  "supplier_name": "KRISHNA, BAL AND CHAND",
+  "supplier_gstin": "24ZNDLD4290X1Z4",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 7,
+      "unit_price": 5186.41,
+      "taxable_value": 36304.87,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4356.58
+    }
+  ],
+  "taxable_value": 36304.87,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 4356.58,
+  "total_tax": 4356.58,
+  "invoice_total": 40661.45,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00264.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00377",
+  "invoice_no": "INV/26/00377",
+  "invoice_date": "2026-01-30",
+  "supplier_name": "VORA-COMAR",
+  "supplier_gstin": "24YGQPF4326Y7Z9",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 6,
+      "unit_price": 1363.04,
+      "taxable_value": 8178.24,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1472.08
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 2,
+      "unit_price": 4276.15,
+      "taxable_value": 8552.3,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1539.41
+    }
+  ],
+  "taxable_value": 16730.54,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3011.49,
+  "total_tax": 3011.49,
+  "invoice_total": 19742.03,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00377.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 3011.49
+}

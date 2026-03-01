@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00064",
+  "invoice_no": "INV/26/00064",
+  "invoice_date": "2026-02-11",
+  "supplier_name": "GUPTA-CHANDRA",
+  "supplier_gstin": "19NNMOM0314J1ZU",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 10,
+      "unit_price": 4146.16,
+      "taxable_value": 41461.6,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2073.08
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 11,
+      "unit_price": 6163.51,
+      "taxable_value": 67798.61,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 18983.61
+    }
+  ],
+  "taxable_value": 109260.21,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 21056.69,
+  "total_tax": 21056.69,
+  "invoice_total": 130316.9,
+  "effective_rate": 19.27,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00064.png",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 7369.84
+}

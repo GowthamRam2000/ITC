@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00346",
+  "invoice_no": "INV/26/00346",
+  "invoice_date": "2026-02-27",
+  "supplier_name": "ATWAL-LALLA",
+  "supplier_gstin": "07ADNYT2468Q7ZC",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 11,
+      "unit_price": 3138.52,
+      "taxable_value": 34523.72,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1726.19
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 12,
+      "unit_price": 2847.9,
+      "taxable_value": 34174.8,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1708.74
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 4,
+      "unit_price": 5204.67,
+      "taxable_value": 20818.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3747.36
+    }
+  ],
+  "taxable_value": 89517.2,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7182.29,
+  "total_tax": 7182.29,
+  "invoice_total": 96699.49,
+  "effective_rate": 8.02,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00346.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

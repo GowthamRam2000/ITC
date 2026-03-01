@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00216",
+  "invoice_no": "INV/26/00216",
+  "invoice_date": "2026-01-18",
+  "supplier_name": "RAY, SURESH AND KHOSLA",
+  "supplier_gstin": "06AYRPC4056J1ZJ",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 4,
+      "unit_price": 1733.53,
+      "taxable_value": 6934.12,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1248.14
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 9,
+      "unit_price": 2794.48,
+      "taxable_value": 25150.32,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4527.06
+    }
+  ],
+  "taxable_value": 32084.44,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 5775.2,
+  "total_tax": 5775.2,
+  "invoice_total": 37859.64,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00216.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

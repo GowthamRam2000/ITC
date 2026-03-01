@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00047",
+  "invoice_no": "INV/26/00047",
+  "invoice_date": "2026-01-29",
+  "supplier_name": "KHATRI-BHARDWAJ",
+  "supplier_gstin": "08ZPTUG2979G6ZS",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 9,
+      "unit_price": 4540.11,
+      "taxable_value": 40860.99,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7354.98
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 4,
+      "unit_price": 6834.55,
+      "taxable_value": 27338.2,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3280.58
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 5,
+      "unit_price": 557.27,
+      "taxable_value": 2786.35,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 334.36
+    }
+  ],
+  "taxable_value": 70985.54,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 10969.92,
+  "total_tax": 10969.92,
+  "invoice_total": 81955.46,
+  "effective_rate": 15.45,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00047.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

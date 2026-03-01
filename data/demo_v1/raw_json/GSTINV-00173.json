@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00173",
+  "invoice_no": "INV/26/00173",
+  "invoice_date": "2026-02-16",
+  "supplier_name": "BAHRI, RAI AND SOOD",
+  "supplier_gstin": "06XRRPT5046P5ZV",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 4,
+      "unit_price": 6406.42,
+      "taxable_value": 25625.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4612.62
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 1,
+      "unit_price": 4525.66,
+      "taxable_value": 4525.66,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 543.08
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 8,
+      "unit_price": 7994.3,
+      "taxable_value": 63954.4,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11511.79
+    }
+  ],
+  "taxable_value": 94105.74,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16667.49,
+  "total_tax": 16667.49,
+  "invoice_total": 110773.23,
+  "effective_rate": 17.71,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00173.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

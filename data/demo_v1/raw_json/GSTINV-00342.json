@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00342",
+  "invoice_no": "INV/26/00342",
+  "invoice_date": "2026-02-15",
+  "supplier_name": "MERCHANT-NIGAM",
+  "supplier_gstin": "07GPYVA7693S2ZX",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 7,
+      "unit_price": 2239.06,
+      "taxable_value": 15673.42,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1880.81
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 9,
+      "unit_price": 8229.19,
+      "taxable_value": 74062.71,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13331.29
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 10,
+      "unit_price": 2700.86,
+      "taxable_value": 27008.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4861.55
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 12,
+      "unit_price": 7405.72,
+      "taxable_value": 88868.64,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 15996.36
+    }
+  ],
+  "taxable_value": 205613.37,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 36070.01,
+  "total_tax": 36070.01,
+  "invoice_total": 241683.38,
+  "effective_rate": 17.54,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00342.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00040",
+  "invoice_no": "INV/26/00040",
+  "invoice_date": "2026-02-09",
+  "supplier_name": "SETTY INC",
+  "supplier_gstin": "29ORJKT4403N7ZQ",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 1,
+      "unit_price": 8216.75,
+      "taxable_value": 8216.75,
+      "gst_rate": 18,
+      "cgst": 739.51,
+      "sgst": 739.51,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 8216.75,
+  "cgst": 739.51,
+  "sgst": 739.51,
+  "igst": 0.0,
+  "total_tax": 1479.02,
+  "invoice_total": 9695.77,
+  "effective_rate": 18.0,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00040.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

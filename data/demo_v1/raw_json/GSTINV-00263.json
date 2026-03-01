@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00263",
+  "invoice_no": "INV/26/00263",
+  "invoice_date": "2026-01-20",
+  "supplier_name": "BARAL, SANKARAN AND NAIDU",
+  "supplier_gstin": "29RCDKP1990G6ZC",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 4,
+      "unit_price": 7143.35,
+      "taxable_value": 28573.4,
+      "gst_rate": 5,
+      "cgst": 714.34,
+      "sgst": 714.34,
+      "igst": 0.0
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 5,
+      "unit_price": 6529.17,
+      "taxable_value": 32645.85,
+      "gst_rate": 18,
+      "cgst": 2938.13,
+      "sgst": 2938.13,
+      "igst": 0.0
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 10,
+      "unit_price": 2407.51,
+      "taxable_value": 24075.1,
+      "gst_rate": 18,
+      "cgst": 2166.76,
+      "sgst": 2166.76,
+      "igst": 0.0
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 6,
+      "unit_price": 4107.42,
+      "taxable_value": 24644.52,
+      "gst_rate": 18,
+      "cgst": 2218.01,
+      "sgst": 2218.01,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 109938.87,
+  "cgst": 8037.24,
+  "sgst": 8037.24,
+  "igst": 0.0,
+  "total_tax": 16074.48,
+  "invoice_total": 126013.35,
+  "effective_rate": 14.62,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00263.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

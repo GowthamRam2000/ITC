@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00108",
+  "invoice_no": "INV/26/00108",
+  "invoice_date": "2026-02-20",
+  "supplier_name": "LALA, EDWIN AND SATHE",
+  "supplier_gstin": "07YWOXT4347I2ZN",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 4,
+      "unit_price": 6860.35,
+      "taxable_value": 27441.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3292.97
+    }
+  ],
+  "taxable_value": 27441.4,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3292.97,
+  "total_tax": 3292.97,
+  "invoice_total": 30734.37,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00108.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00027",
+  "invoice_no": "INV/26/00027",
+  "invoice_date": "2026-01-29",
+  "supplier_name": "MURTY, KALA AND TATA",
+  "supplier_gstin": "19LGKRE1636P3ZE",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 5,
+      "unit_price": 5708.13,
+      "taxable_value": 28540.65,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5137.32
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 5,
+      "unit_price": 5798.38,
+      "taxable_value": 28991.9,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5218.54
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 2,
+      "unit_price": 3821.7,
+      "taxable_value": 7643.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 917.21
+    }
+  ],
+  "taxable_value": 65175.95,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11273.07,
+  "total_tax": 11273.07,
+  "invoice_total": 76449.02,
+  "effective_rate": 17.3,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00027.jpg",
+  "mismatch_type": "gstin_status_risk",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 9018.46
+}

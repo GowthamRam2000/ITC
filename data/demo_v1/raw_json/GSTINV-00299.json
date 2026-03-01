@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00299",
+  "invoice_no": "INV/26/00299",
+  "invoice_date": "2026-01-30",
+  "supplier_name": "BASSI-NADKARNI",
+  "supplier_gstin": "32GVHKN7825D1Z7",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 12,
+      "unit_price": 163.69,
+      "taxable_value": 1964.28,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 353.57
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 4,
+      "unit_price": 6869.15,
+      "taxable_value": 27476.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4945.79
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 10,
+      "unit_price": 6108.74,
+      "taxable_value": 61087.4,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10995.73
+    }
+  ],
+  "taxable_value": 90528.28,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16295.09,
+  "total_tax": 16295.09,
+  "invoice_total": 106823.37,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00299.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

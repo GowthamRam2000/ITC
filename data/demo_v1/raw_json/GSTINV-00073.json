@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00073",
+  "invoice_no": "INV/26/00073",
+  "invoice_date": "2026-01-09",
+  "supplier_name": "CHAUDHARI, BEDI AND ZACHARIAH",
+  "supplier_gstin": "08PBIBZ9090N3Z8",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 7,
+      "unit_price": 3878.74,
+      "taxable_value": 27151.18,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4887.21
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 7,
+      "unit_price": 792.49,
+      "taxable_value": 5547.43,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 998.54
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 3,
+      "unit_price": 5596.62,
+      "taxable_value": 16789.86,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4701.16
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 2,
+      "unit_price": 1615.61,
+      "taxable_value": 3231.22,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 581.62
+    }
+  ],
+  "taxable_value": 52719.69,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11168.53,
+  "total_tax": 11168.53,
+  "invoice_total": 63888.22,
+  "effective_rate": 21.18,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00073.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 11168.53
+}

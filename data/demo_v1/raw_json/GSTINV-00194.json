@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00194",
+  "invoice_no": "INV/26/00194",
+  "invoice_date": "2026-02-05",
+  "supplier_name": "KUNDA-PILLAY",
+  "supplier_gstin": "27EVROX5375C1ZL",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 7408.81,
+      "taxable_value": 14817.62,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2667.17
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 12,
+      "unit_price": 5590.29,
+      "taxable_value": 67083.48,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8050.02
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 1,
+      "unit_price": 5431.97,
+      "taxable_value": 5431.97,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 977.75
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 1,
+      "unit_price": 2674.08,
+      "taxable_value": 2674.08,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 481.33
+    }
+  ],
+  "taxable_value": 90007.15,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 12176.27,
+  "total_tax": 12176.27,
+  "invoice_total": 102183.42,
+  "effective_rate": 13.53,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00194.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

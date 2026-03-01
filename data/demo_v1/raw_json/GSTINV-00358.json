@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00358",
+  "invoice_no": "INV/26/00358",
+  "invoice_date": "2026-02-08",
+  "supplier_name": "DUBEY, SACHDEVA AND CHAUDHARY",
+  "supplier_gstin": "08QCGTC1291V1ZF",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 5643.74,
+      "taxable_value": 28218.7,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7901.24
+    }
+  ],
+  "taxable_value": 28218.7,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7901.24,
+  "total_tax": 7901.24,
+  "invoice_total": 36119.94,
+  "effective_rate": 28.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00358.png",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 4515.0
+}

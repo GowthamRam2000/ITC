@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00141",
+  "invoice_no": "INV/26/00141",
+  "invoice_date": "2026-02-20",
+  "supplier_name": "GHOSH-MITRA",
+  "supplier_gstin": "27UREJJ0689E8ZV",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 1,
+      "unit_price": 650.76,
+      "taxable_value": 650.76,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 117.14
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 1,
+      "unit_price": 6024.28,
+      "taxable_value": 6024.28,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1084.37
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 12,
+      "unit_price": 4952.32,
+      "taxable_value": 59427.84,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 16639.8
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 4,
+      "unit_price": 8314.76,
+      "taxable_value": 33259.04,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5986.63
+    }
+  ],
+  "taxable_value": 99361.92,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 23827.94,
+  "total_tax": 23827.94,
+  "invoice_total": 123189.86,
+  "effective_rate": 23.98,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00141.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

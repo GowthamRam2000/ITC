@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00070",
+  "invoice_no": "INV/26/00070",
+  "invoice_date": "2026-02-11",
+  "supplier_name": "SEN, DEY AND SAMI",
+  "supplier_gstin": "08EWXVN0611K4Z0",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 8,
+      "unit_price": 6436.48,
+      "taxable_value": 51491.84,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6179.02
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 5,
+      "unit_price": 5001.02,
+      "taxable_value": 25005.1,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4500.92
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 1,
+      "unit_price": 2311.82,
+      "taxable_value": 2311.82,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 416.13
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 12,
+      "unit_price": 2100.22,
+      "taxable_value": 25202.64,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4536.48
+    }
+  ],
+  "taxable_value": 104011.4,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15632.55,
+  "total_tax": 15632.55,
+  "invoice_total": 119643.95,
+  "effective_rate": 15.03,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00070.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1512.77
+}

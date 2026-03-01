@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00286",
+  "invoice_no": "INV/26/00286",
+  "invoice_date": "2026-01-31",
+  "supplier_name": "DUBE GROUP",
+  "supplier_gstin": "07JCJFL3260N6ZB",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 1,
+      "unit_price": 4421.8,
+      "taxable_value": 4421.8,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 221.09
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 11,
+      "unit_price": 1999.05,
+      "taxable_value": 21989.55,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3958.12
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 8,
+      "unit_price": 4538.6,
+      "taxable_value": 36308.8,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4357.06
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 2,
+      "unit_price": 2556.09,
+      "taxable_value": 5112.18,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1431.41
+    }
+  ],
+  "taxable_value": 67832.33,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9967.68,
+  "total_tax": 9967.68,
+  "invoice_total": 77800.01,
+  "effective_rate": 14.69,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00286.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

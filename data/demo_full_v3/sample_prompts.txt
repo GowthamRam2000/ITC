@@ -1,0 +1,5 @@
+What are top critical issues above ₹50000?
+What if supplier files pending invoices this month?
+Simulate ITC impact if GST rate mismatch is corrected for top 10 invoices.
+இந்த invoice-ல என்ன issue இருக்கு?
+इस जॉब के लिए action priority बताओ.

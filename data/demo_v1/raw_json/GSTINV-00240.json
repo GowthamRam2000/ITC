@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00240",
+  "invoice_no": "INV/26/00240",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "BORAH-BERA",
+  "supplier_gstin": "33XBJFG6841B9ZB",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 9,
+      "unit_price": 1092.63,
+      "taxable_value": 9833.67,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1770.06
+    }
+  ],
+  "taxable_value": 9833.67,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1770.06,
+  "total_tax": 1770.06,
+  "invoice_total": 11603.73,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00240.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

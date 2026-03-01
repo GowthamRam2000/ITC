@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00158",
+  "invoice_no": "INV/26/00158",
+  "invoice_date": "2026-02-19",
+  "supplier_name": "SHAN AND SONS",
+  "supplier_gstin": "36POJIL0227N5ZN",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 8,
+      "unit_price": 3852.1,
+      "taxable_value": 30816.8,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5547.02
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 8,
+      "unit_price": 4743.01,
+      "taxable_value": 37944.08,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6829.93
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 11,
+      "unit_price": 5203.54,
+      "taxable_value": 57238.94,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6868.67
+    }
+  ],
+  "taxable_value": 125999.82,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 19245.62,
+  "total_tax": 19245.62,
+  "invoice_total": 145245.44,
+  "effective_rate": 15.27,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00158.pdf",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 2101.19
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00063",
+  "invoice_no": "INV/26/00063",
+  "invoice_date": "2026-01-25",
+  "supplier_name": "SOLANKI, KIBE AND SOLANKI",
+  "supplier_gstin": "24JZOJD6400W6ZU",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 10,
+      "unit_price": 7604.44,
+      "taxable_value": 76044.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9125.33
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 6,
+      "unit_price": 7924.87,
+      "taxable_value": 47549.22,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5705.91
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 3,
+      "unit_price": 3412.96,
+      "taxable_value": 10238.88,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1843.0
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 12,
+      "unit_price": 7181.0,
+      "taxable_value": 86172.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 15510.96
+    }
+  ],
+  "taxable_value": 220004.5,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 32185.2,
+  "total_tax": 32185.2,
+  "invoice_total": 252189.7,
+  "effective_rate": 14.63,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00063.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 32185.2
+}

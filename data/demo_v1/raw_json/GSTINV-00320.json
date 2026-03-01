@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00320",
+  "invoice_no": "INV/26/00320",
+  "invoice_date": "2026-02-23",
+  "supplier_name": "KHOSLA, TANK AND DHAR",
+  "supplier_gstin": "36FQGTY3721A6Z0",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 9,
+      "unit_price": 1085.29,
+      "taxable_value": 9767.61,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 488.38
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 8,
+      "unit_price": 1749.1,
+      "taxable_value": 13992.8,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2518.7
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 6,
+      "unit_price": 487.92,
+      "taxable_value": 2927.52,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 526.95
+    }
+  ],
+  "taxable_value": 26687.93,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3534.03,
+  "total_tax": 3534.03,
+  "invoice_total": 30221.96,
+  "effective_rate": 13.24,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00320.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 184.56
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00115",
+  "invoice_no": "INV/26/00115",
+  "invoice_date": "2026-01-24",
+  "supplier_name": "KRISH, CHAUHAN AND PANDYA",
+  "supplier_gstin": "27BHDFX5687M6ZU",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 4330.06,
+      "taxable_value": 43300.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7794.11
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 5,
+      "unit_price": 1626.86,
+      "taxable_value": 8134.3,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1464.17
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 1955.39,
+      "taxable_value": 19553.9,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3519.7
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 1,
+      "unit_price": 6896.52,
+      "taxable_value": 6896.52,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1241.37
+    }
+  ],
+  "taxable_value": 77885.32,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 14019.35,
+  "total_tax": 14019.35,
+  "invoice_total": 91904.67,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00115.pdf",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1163.87
+}

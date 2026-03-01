@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00057",
+  "invoice_no": "INV/26/00057",
+  "invoice_date": "2026-01-29",
+  "supplier_name": "KARPE PLC",
+  "supplier_gstin": "07PCIZS5780K2ZS",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 5481.47,
+      "taxable_value": 49333.23,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5919.99
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 3,
+      "unit_price": 3745.34,
+      "taxable_value": 11236.02,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1348.32
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 2,
+      "unit_price": 4461.7,
+      "taxable_value": 8923.4,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 446.17
+    }
+  ],
+  "taxable_value": 69492.65,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7714.48,
+  "total_tax": 7714.48,
+  "invoice_total": 77207.13,
+  "effective_rate": 11.1,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00057.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00226",
+  "invoice_no": "INV/26/00226",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "WASON LTD",
+  "supplier_gstin": "09PXNAL9533Z5ZI",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 12,
+      "unit_price": 2668.11,
+      "taxable_value": 32017.32,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5763.12
+    }
+  ],
+  "taxable_value": 32017.32,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 5763.12,
+  "total_tax": 5763.12,
+  "invoice_total": 37780.44,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00226.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

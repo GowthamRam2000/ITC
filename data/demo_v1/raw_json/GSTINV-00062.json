@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00062",
+  "invoice_no": "INV/26/00062",
+  "invoice_date": "2026-01-23",
+  "supplier_name": "ZACHARIA AND SONS",
+  "supplier_gstin": "27HACDG3400R4ZN",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 7,
+      "unit_price": 4345.66,
+      "taxable_value": 30419.62,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1520.98
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 7036.11,
+      "taxable_value": 35180.55,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9850.55
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 11,
+      "unit_price": 5240.54,
+      "taxable_value": 57645.94,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10376.27
+    }
+  ],
+  "taxable_value": 123246.11,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 21747.8,
+  "total_tax": 21747.8,
+  "invoice_total": 144993.91,
+  "effective_rate": 17.65,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00062.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

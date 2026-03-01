@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00198",
+  "invoice_no": "INV/26/00198",
+  "invoice_date": "2026-01-08",
+  "supplier_name": "ISSAC, BORRA AND KIBE",
+  "supplier_gstin": "09OQZSR3952B5ZC",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 8,
+      "unit_price": 5606.87,
+      "taxable_value": 44854.96,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2242.75
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 2,
+      "unit_price": 3376.85,
+      "taxable_value": 6753.7,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 337.69
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 11,
+      "unit_price": 7260.46,
+      "taxable_value": 79865.06,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 14375.71
+    }
+  ],
+  "taxable_value": 131473.72,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16956.15,
+  "total_tax": 16956.15,
+  "invoice_total": 148429.87,
+  "effective_rate": 12.9,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00198.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

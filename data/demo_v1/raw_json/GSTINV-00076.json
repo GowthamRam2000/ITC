@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00076",
+  "invoice_no": "INV/26/00076",
+  "invoice_date": "2026-02-07",
+  "supplier_name": "KALA-RATTAN",
+  "supplier_gstin": "29FHBYW9644L7ZX",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 3,
+      "unit_price": 2633.07,
+      "taxable_value": 7899.21,
+      "gst_rate": 18,
+      "cgst": 710.93,
+      "sgst": 710.93,
+      "igst": 0.0
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 4088.09,
+      "taxable_value": 36792.81,
+      "gst_rate": 12,
+      "cgst": 2207.57,
+      "sgst": 2207.57,
+      "igst": 0.0
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 5,
+      "unit_price": 7306.2,
+      "taxable_value": 36531.0,
+      "gst_rate": 12,
+      "cgst": 2191.86,
+      "sgst": 2191.86,
+      "igst": 0.0
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 8,
+      "unit_price": 7785.53,
+      "taxable_value": 62284.24,
+      "gst_rate": 12,
+      "cgst": 3737.06,
+      "sgst": 3737.06,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 143507.26,
+  "cgst": 8847.42,
+  "sgst": 8847.42,
+  "igst": 0.0,
+  "total_tax": 17694.84,
+  "invoice_total": 161202.1,
+  "effective_rate": 12.33,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00076.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

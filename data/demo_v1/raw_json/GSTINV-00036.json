@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00036",
+  "invoice_no": "INV/26/00036",
+  "invoice_date": "2026-02-09",
+  "supplier_name": "SIDHU-WADHWA",
+  "supplier_gstin": "06CCTVO5531L7Z3",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 2,
+      "unit_price": 4962.96,
+      "taxable_value": 9925.92,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1786.67
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 3,
+      "unit_price": 5623.45,
+      "taxable_value": 16870.35,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2024.44
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 2,
+      "unit_price": 3053.96,
+      "taxable_value": 6107.92,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 732.95
+    }
+  ],
+  "taxable_value": 32904.19,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 4544.06,
+  "total_tax": 4544.06,
+  "invoice_total": 37448.25,
+  "effective_rate": 13.81,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00036.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 4544.06
+}

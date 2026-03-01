@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00112",
+  "invoice_no": "INV/26/00112",
+  "invoice_date": "2026-02-02",
+  "supplier_name": "DIVAN, SANI AND DATTA",
+  "supplier_gstin": "27GDERV6083C4ZM",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 5,
+      "unit_price": 6992.35,
+      "taxable_value": 34961.75,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6293.12
+    }
+  ],
+  "taxable_value": 34961.75,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6293.12,
+  "total_tax": 6293.12,
+  "invoice_total": 41254.87,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00112.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

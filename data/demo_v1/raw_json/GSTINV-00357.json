@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00357",
+  "invoice_no": "INV/26/00357",
+  "invoice_date": "2026-02-16",
+  "supplier_name": "ZACHARIAH-SAINI",
+  "supplier_gstin": "01KVUNB8586Y4Z7",
+  "supplier_state_code": "01",
+  "supplier_state_name": "Jammu and Kashmir",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 9,
+      "unit_price": 3867.81,
+      "taxable_value": 34810.29,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1740.51
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 2,
+      "unit_price": 448.02,
+      "taxable_value": 896.04,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 161.29
+    }
+  ],
+  "taxable_value": 35706.33,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1901.8,
+  "total_tax": 1901.8,
+  "invoice_total": 37608.13,
+  "effective_rate": 5.33,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00357.pdf",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 380.36
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00084",
+  "invoice_no": "INV/26/00084",
+  "invoice_date": "2026-01-09",
+  "supplier_name": "DUGAR, BHANDARI AND TRIVEDI",
+  "supplier_gstin": "19JTURC7302C6ZP",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 11,
+      "unit_price": 2410.48,
+      "taxable_value": 26515.28,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1325.76
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 8,
+      "unit_price": 2031.8,
+      "taxable_value": 16254.4,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2925.79
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 7,
+      "unit_price": 3738.89,
+      "taxable_value": 26172.23,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7328.22
+    }
+  ],
+  "taxable_value": 68941.91,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11579.77,
+  "total_tax": 11579.77,
+  "invoice_total": 80521.68,
+  "effective_rate": 16.8,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00084.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

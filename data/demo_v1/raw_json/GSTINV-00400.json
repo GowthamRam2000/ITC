@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00400",
+  "invoice_no": "INV/26/00400",
+  "invoice_date": "2026-01-06",
+  "supplier_name": "SAMPATH-BEHL",
+  "supplier_gstin": "09WGVUK2940E6ZX",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 3,
+      "unit_price": 8157.77,
+      "taxable_value": 24473.31,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4405.2
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 4,
+      "unit_price": 4777.1,
+      "taxable_value": 19108.4,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3439.51
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 4,
+      "unit_price": 5284.33,
+      "taxable_value": 21137.32,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3804.72
+    }
+  ],
+  "taxable_value": 64719.03,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11649.43,
+  "total_tax": 11649.43,
+  "invoice_total": 76368.46,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00400.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00345",
+  "invoice_no": "INV/26/00345",
+  "invoice_date": "2026-01-20",
+  "supplier_name": "RANGANATHAN, PAU AND CHANA",
+  "supplier_gstin": "01RUBFU3592P8ZL",
+  "supplier_state_code": "01",
+  "supplier_state_name": "Jammu and Kashmir",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 6,
+      "unit_price": 5833.99,
+      "taxable_value": 35003.94,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6300.71
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 6,
+      "unit_price": 6965.18,
+      "taxable_value": 41791.08,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7522.39
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 11,
+      "unit_price": 3459.19,
+      "taxable_value": 38051.09,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6849.2
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 1,
+      "unit_price": 8293.06,
+      "taxable_value": 8293.06,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1492.75
+    }
+  ],
+  "taxable_value": 123139.17,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 22165.05,
+  "total_tax": 22165.05,
+  "invoice_total": 145304.22,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00345.png",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 7757.77
+}

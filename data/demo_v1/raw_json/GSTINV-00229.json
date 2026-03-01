@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00229",
+  "invoice_no": "INV/26/00229",
+  "invoice_date": "2026-02-03",
+  "supplier_name": "MANDAL, CHAUDHRY AND HARI",
+  "supplier_gstin": "07FTIQT1133X9ZE",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 5,
+      "unit_price": 1336.36,
+      "taxable_value": 6681.8,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1202.72
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 1,
+      "unit_price": 2540.08,
+      "taxable_value": 2540.08,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 457.21
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 7,
+      "unit_price": 5805.77,
+      "taxable_value": 40640.39,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7315.27
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 11,
+      "unit_price": 8130.2,
+      "taxable_value": 89432.2,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 25041.02
+    }
+  ],
+  "taxable_value": 139294.47,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 34016.22,
+  "total_tax": 34016.22,
+  "invoice_total": 173310.69,
+  "effective_rate": 24.42,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00229.pdf",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 27051.5
+}

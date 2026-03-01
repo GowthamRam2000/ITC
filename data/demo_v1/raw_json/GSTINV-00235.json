@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00235",
+  "invoice_no": "INV/26/00235",
+  "invoice_date": "2026-02-25",
+  "supplier_name": "ARORA PLC",
+  "supplier_gstin": "27TDFSP4053R8Z1",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 6,
+      "unit_price": 6721.58,
+      "taxable_value": 40329.48,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2016.47
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 7,
+      "unit_price": 1110.41,
+      "taxable_value": 7772.87,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 388.64
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 8,
+      "unit_price": 7997.95,
+      "taxable_value": 63983.6,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 17915.41
+    }
+  ],
+  "taxable_value": 112085.95,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 20320.52,
+  "total_tax": 20320.52,
+  "invoice_total": 132406.47,
+  "effective_rate": 18.13,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00235.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 20320.52
+}

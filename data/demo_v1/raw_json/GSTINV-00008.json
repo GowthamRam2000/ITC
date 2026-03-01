@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00008",
+  "invoice_no": "INV/26/00008",
+  "invoice_date": "2026-01-10",
+  "supplier_name": "AHUJA-DUTTA",
+  "supplier_gstin": "32ITLVX4941P8ZG",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 9,
+      "unit_price": 4180.92,
+      "taxable_value": 37628.28,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6773.09
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 5,
+      "unit_price": 3806.13,
+      "taxable_value": 19030.65,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2283.68
+    }
+  ],
+  "taxable_value": 56658.93,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9056.77,
+  "total_tax": 9056.77,
+  "invoice_total": 65715.7,
+  "effective_rate": 15.98,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00008.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 907.61
+}

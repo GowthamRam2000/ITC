@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00032",
+  "invoice_no": "INV/26/00032",
+  "invoice_date": "2026-01-30",
+  "supplier_name": "UPADHYAY GROUP",
+  "supplier_gstin": "36YKTEK0449B6ZD",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 6,
+      "unit_price": 952.59,
+      "taxable_value": 5715.54,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 685.86
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 9,
+      "unit_price": 7676.21,
+      "taxable_value": 69085.89,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 12435.46
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 1,
+      "unit_price": 3456.41,
+      "taxable_value": 3456.41,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 622.15
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 2,
+      "unit_price": 8072.71,
+      "taxable_value": 16145.42,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1937.45
+    }
+  ],
+  "taxable_value": 94403.26,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15680.92,
+  "total_tax": 15680.92,
+  "invoice_total": 110084.18,
+  "effective_rate": 16.61,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00032.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

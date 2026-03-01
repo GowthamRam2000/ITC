@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-02-28",
+  "seed": 20260228,
+  "source": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/invoice_truth.jsonl",
+  "cycles": [
+    {
+      "cycle": "cycle_01",
+      "invoice_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_01/invoice_truth.jsonl",
+      "gstr2b_jsonl_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_01/gstr2b_truth.jsonl",
+      "gstr2b_csv_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_01/gstr2b_truth.csv",
+      "invoice_rows": 184,
+      "gstr2b_rows": 164,
+      "entities": [
+        "29AAACD1234F1Z5",
+        "27AAACD1234F1Z9",
+        "33AAACD1234F1Z2",
+        "07AAACD1234F1Z7"
+      ]
+    },
+    {
+      "cycle": "cycle_02",
+      "invoice_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_02/invoice_truth.jsonl",
+      "gstr2b_jsonl_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_02/gstr2b_truth.jsonl",
+      "gstr2b_csv_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_02/gstr2b_truth.csv",
+      "invoice_rows": 184,
+      "gstr2b_rows": 164,
+      "entities": [
+        "29AAACD1234F1Z5",
+        "27AAACD1234F1Z9",
+        "33AAACD1234F1Z2",
+        "07AAACD1234F1Z7"
+      ]
+    },
+    {
+      "cycle": "cycle_03",
+      "invoice_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_03/invoice_truth.jsonl",
+      "gstr2b_jsonl_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_03/gstr2b_truth.jsonl",
+      "gstr2b_csv_file": "/Users/gowthamram/PycharmProjects/ITC/data/phase6_v1/cycle_03/gstr2b_truth.csv",
+      "invoice_rows": 184,
+      "gstr2b_rows": 164,
+      "entities": [
+        "29AAACD1234F1Z5",
+        "27AAACD1234F1Z9",
+        "33AAACD1234F1Z2",
+        "07AAACD1234F1Z7"
+      ]
+    }
+  ]
+}

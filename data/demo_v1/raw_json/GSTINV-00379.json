@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00379",
+  "invoice_no": "INV/26/00379",
+  "invoice_date": "2026-02-15",
+  "supplier_name": "VARGHESE-CHOPRA",
+  "supplier_gstin": "33YDUGY5707R6Z5",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 10,
+      "unit_price": 7598.23,
+      "taxable_value": 75982.3,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13676.81
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 5,
+      "unit_price": 2900.12,
+      "taxable_value": 14500.6,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1740.07
+    }
+  ],
+  "taxable_value": 90482.9,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15416.88,
+  "total_tax": 15416.88,
+  "invoice_total": 105899.78,
+  "effective_rate": 17.04,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00379.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

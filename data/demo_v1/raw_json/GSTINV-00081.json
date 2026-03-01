@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00081",
+  "invoice_no": "INV/26/00081",
+  "invoice_date": "2026-01-06",
+  "supplier_name": "KALLA-BHARDWAJ",
+  "supplier_gstin": "33RQMMA5052J1ZW",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 2,
+      "unit_price": 7813.25,
+      "taxable_value": 15626.5,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1875.18
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 3,
+      "unit_price": 2139.32,
+      "taxable_value": 6417.96,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1797.03
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 9,
+      "unit_price": 2235.26,
+      "taxable_value": 20117.34,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3621.12
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 5,
+      "unit_price": 6781.57,
+      "taxable_value": 33907.85,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6103.41
+    }
+  ],
+  "taxable_value": 76069.65,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 13396.74,
+  "total_tax": 13396.74,
+  "invoice_total": 89466.39,
+  "effective_rate": 17.61,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00081.png",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 2679.35
+}

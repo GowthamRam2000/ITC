@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00041",
+  "invoice_no": "INV/26/00041",
+  "invoice_date": "2026-02-06",
+  "supplier_name": "LALL, TELLA AND GOKHALE",
+  "supplier_gstin": "32LRJLC4408X6ZE",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 9,
+      "unit_price": 5426.42,
+      "taxable_value": 48837.78,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2441.89
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 9,
+      "unit_price": 1744.91,
+      "taxable_value": 15704.19,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4397.17
+    }
+  ],
+  "taxable_value": 64541.97,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6839.06,
+  "total_tax": 6839.06,
+  "invoice_total": 71381.03,
+  "effective_rate": 10.6,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00041.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

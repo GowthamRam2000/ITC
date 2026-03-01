@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00189",
+  "invoice_no": "INV/26/00189",
+  "invoice_date": "2026-02-25",
+  "supplier_name": "KAPUR-BISWAS",
+  "supplier_gstin": "09IQCNB8182P4Z6",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 9,
+      "unit_price": 5348.87,
+      "taxable_value": 48139.83,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8665.17
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 5,
+      "unit_price": 531.34,
+      "taxable_value": 2656.7,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 478.21
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 10,
+      "unit_price": 6135.54,
+      "taxable_value": 61355.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7362.65
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 4,
+      "unit_price": 5615.18,
+      "taxable_value": 22460.72,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1123.04
+    }
+  ],
+  "taxable_value": 134612.65,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 17629.07,
+  "total_tax": 17629.07,
+  "invoice_total": 152241.72,
+  "effective_rate": 13.1,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00189.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

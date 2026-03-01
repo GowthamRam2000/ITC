@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00146",
+  "invoice_no": "INV/26/00146",
+  "invoice_date": "2026-02-01",
+  "supplier_name": "GARA-CHAD",
+  "supplier_gstin": "27YUXRE8166K9ZO",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 7,
+      "unit_price": 8194.91,
+      "taxable_value": 57364.37,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10325.59
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 8,
+      "unit_price": 6864.2,
+      "taxable_value": 54913.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9884.45
+    }
+  ],
+  "taxable_value": 112277.97,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 20210.04,
+  "total_tax": 20210.04,
+  "invoice_total": 132488.01,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00146.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

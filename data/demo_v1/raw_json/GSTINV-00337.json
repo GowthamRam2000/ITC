@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00337",
+  "invoice_no": "INV/26/00337",
+  "invoice_date": "2026-02-10",
+  "supplier_name": "CHANA LLC",
+  "supplier_gstin": "08QBJHD2095O6Z8",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 9,
+      "unit_price": 6755.11,
+      "taxable_value": 60795.99,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3039.8
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 11,
+      "unit_price": 6930.51,
+      "taxable_value": 76235.61,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13722.41
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 4,
+      "unit_price": 7217.31,
+      "taxable_value": 28869.24,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1443.46
+    }
+  ],
+  "taxable_value": 165900.84,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 18205.67,
+  "total_tax": 18205.67,
+  "invoice_total": 184106.51,
+  "effective_rate": 10.97,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00337.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

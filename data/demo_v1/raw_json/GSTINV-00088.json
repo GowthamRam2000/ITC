@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00088",
+  "invoice_no": "INV/26/00088",
+  "invoice_date": "2026-01-30",
+  "supplier_name": "BARAL, BUMB AND SAINI",
+  "supplier_gstin": "08IHUJY1917A8ZD",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 7,
+      "unit_price": 5759.55,
+      "taxable_value": 40316.85,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2015.84
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 11,
+      "unit_price": 2657.74,
+      "taxable_value": 29235.14,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3508.22
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 11,
+      "unit_price": 1411.72,
+      "taxable_value": 15528.92,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2795.21
+    }
+  ],
+  "taxable_value": 85080.91,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 8319.27,
+  "total_tax": 8319.27,
+  "invoice_total": 93400.18,
+  "effective_rate": 9.78,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00088.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

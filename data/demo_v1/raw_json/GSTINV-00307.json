@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00307",
+  "invoice_no": "INV/26/00307",
+  "invoice_date": "2026-02-15",
+  "supplier_name": "NIGAM-RAO",
+  "supplier_gstin": "33EPIAB3343M2Z3",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 10,
+      "unit_price": 2101.8,
+      "taxable_value": 21018.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3783.24
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 9,
+      "unit_price": 3346.71,
+      "taxable_value": 30120.39,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8433.71
+    }
+  ],
+  "taxable_value": 51138.39,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 12216.95,
+  "total_tax": 12216.95,
+  "invoice_total": 63355.34,
+  "effective_rate": 23.89,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00307.png",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 12216.95
+}

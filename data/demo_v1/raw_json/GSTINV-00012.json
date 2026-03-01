@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00012",
+  "invoice_no": "INV/26/00012",
+  "invoice_date": "2026-01-22",
+  "supplier_name": "PARMER LLC",
+  "supplier_gstin": "08MGJPZ7713S1ZJ",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 12,
+      "unit_price": 1782.0,
+      "taxable_value": 21384.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3849.12
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 12,
+      "unit_price": 7080.19,
+      "taxable_value": 84962.28,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 15293.21
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 2,
+      "unit_price": 5962.48,
+      "taxable_value": 11924.96,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1431.0
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 11,
+      "unit_price": 5151.45,
+      "taxable_value": 56665.95,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10199.87
+    }
+  ],
+  "taxable_value": 174937.19,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 30773.2,
+  "total_tax": 30773.2,
+  "invoice_total": 205710.39,
+  "effective_rate": 17.59,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00012.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

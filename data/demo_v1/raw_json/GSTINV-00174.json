@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00174",
+  "invoice_no": "INV/26/00174",
+  "invoice_date": "2026-01-19",
+  "supplier_name": "PANDEY LLC",
+  "supplier_gstin": "24WULDN3063D6ZN",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 2322.67,
+      "taxable_value": 20904.03,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2508.48
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 8,
+      "unit_price": 8152.45,
+      "taxable_value": 65219.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11739.53
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 6,
+      "unit_price": 1661.2,
+      "taxable_value": 9967.2,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1794.1
+    }
+  ],
+  "taxable_value": 96090.83,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16042.11,
+  "total_tax": 16042.11,
+  "invoice_total": 112132.94,
+  "effective_rate": 16.69,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00174.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 16042.11
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00118",
+  "invoice_no": "INV/26/00118",
+  "invoice_date": "2026-02-16",
+  "supplier_name": "GOLA LTD",
+  "supplier_gstin": "29WYJYK1311N8ZK",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 11,
+      "unit_price": 5055.4,
+      "taxable_value": 55609.4,
+      "gst_rate": 12,
+      "cgst": 3336.57,
+      "sgst": 3336.57,
+      "igst": 0.0
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 7,
+      "unit_price": 2691.18,
+      "taxable_value": 18838.26,
+      "gst_rate": 12,
+      "cgst": 1130.3,
+      "sgst": 1130.3,
+      "igst": 0.0
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 3,
+      "unit_price": 1609.2,
+      "taxable_value": 4827.6,
+      "gst_rate": 18,
+      "cgst": 434.49,
+      "sgst": 434.49,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 79275.26,
+  "cgst": 4901.36,
+  "sgst": 4901.36,
+  "igst": 0.0,
+  "total_tax": 9802.72,
+  "invoice_total": 89077.98,
+  "effective_rate": 12.37,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00118.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

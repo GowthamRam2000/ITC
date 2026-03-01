@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00119",
+  "invoice_no": "INV/26/00119",
+  "invoice_date": "2026-01-11",
+  "supplier_name": "SABHARWAL-KOTHARI",
+  "supplier_gstin": "32KZZAP9925P3ZL",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 6,
+      "unit_price": 8352.34,
+      "taxable_value": 50114.04,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6013.68
+    }
+  ],
+  "taxable_value": 50114.04,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6013.68,
+  "total_tax": 6013.68,
+  "invoice_total": 56127.72,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00119.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

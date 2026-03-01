@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00127",
+  "invoice_no": "INV/26/00127",
+  "invoice_date": "2026-02-15",
+  "supplier_name": "UPADHYAY-RATTA",
+  "supplier_gstin": "24TTWVN1351Q1ZB",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 4,
+      "unit_price": 397.14,
+      "taxable_value": 1588.56,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 79.43
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 6,
+      "unit_price": 6024.83,
+      "taxable_value": 36148.98,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1807.45
+    }
+  ],
+  "taxable_value": 37737.54,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1886.88,
+  "total_tax": 1886.88,
+  "invoice_total": 39624.42,
+  "effective_rate": 5.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00127.jpg",
+  "mismatch_type": "gstin_status_risk",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 1509.5
+}

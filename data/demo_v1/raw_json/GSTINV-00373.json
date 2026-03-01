@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00373",
+  "invoice_no": "INV/26/00373",
+  "invoice_date": "2026-01-01",
+  "supplier_name": "BAL, DEEP AND AURORA",
+  "supplier_gstin": "19HMTND1478Y9ZM",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 11,
+      "unit_price": 6131.19,
+      "taxable_value": 67443.09,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 12139.76
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 4166.04,
+      "taxable_value": 8332.08,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1499.77
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 9,
+      "unit_price": 6747.62,
+      "taxable_value": 60728.58,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 17004.0
+    }
+  ],
+  "taxable_value": 136503.75,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 30643.53,
+  "total_tax": 30643.53,
+  "invoice_total": 167147.28,
+  "effective_rate": 22.45,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00373.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

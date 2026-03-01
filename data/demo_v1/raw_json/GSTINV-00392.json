@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00392",
+  "invoice_no": "INV/26/00392",
+  "invoice_date": "2026-02-27",
+  "supplier_name": "RASTOGI-SAGAR",
+  "supplier_gstin": "32YJRNG8666X4ZZ",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 5,
+      "unit_price": 3269.39,
+      "taxable_value": 16346.95,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 817.35
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 7,
+      "unit_price": 7275.09,
+      "taxable_value": 50925.63,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9166.61
+    }
+  ],
+  "taxable_value": 67272.58,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9983.96,
+  "total_tax": 9983.96,
+  "invoice_total": 77256.54,
+  "effective_rate": 14.84,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00392.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

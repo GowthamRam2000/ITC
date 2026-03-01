@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00238",
+  "invoice_no": "INV/26/00238",
+  "invoice_date": "2026-02-01",
+  "supplier_name": "KRISHNAN GROUP",
+  "supplier_gstin": "08YBCWP7040F2ZI",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 4,
+      "unit_price": 1319.08,
+      "taxable_value": 5276.32,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 633.16
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 9,
+      "unit_price": 3894.51,
+      "taxable_value": 35050.59,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6309.11
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 3,
+      "unit_price": 5236.31,
+      "taxable_value": 15708.93,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1885.07
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 10,
+      "unit_price": 1628.4,
+      "taxable_value": 16284.0,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 814.2
+    }
+  ],
+  "taxable_value": 72319.84,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9641.54,
+  "total_tax": 9641.54,
+  "invoice_total": 81961.38,
+  "effective_rate": 13.33,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00238.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

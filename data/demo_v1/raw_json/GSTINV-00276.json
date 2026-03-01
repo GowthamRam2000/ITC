@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00276",
+  "invoice_no": "INV/26/00276",
+  "invoice_date": "2026-02-20",
+  "supplier_name": "VARKEY-AGARWAL",
+  "supplier_gstin": "36ISTQE4602J6Z5",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 9,
+      "unit_price": 6099.67,
+      "taxable_value": 54897.03,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6587.64
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 10,
+      "unit_price": 5866.61,
+      "taxable_value": 58666.1,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7039.93
+    }
+  ],
+  "taxable_value": 113563.13,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 13627.57,
+  "total_tax": 13627.57,
+  "invoice_total": 127190.7,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00276.jpg",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 4769.65
+}

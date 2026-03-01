@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00391",
+  "invoice_no": "INV/26/00391",
+  "invoice_date": "2026-02-11",
+  "supplier_name": "SACHDEV LLC",
+  "supplier_gstin": "06MLEHB5307O5ZU",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 2,
+      "unit_price": 8262.68,
+      "taxable_value": 16525.36,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1983.04
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 1,
+      "unit_price": 3165.9,
+      "taxable_value": 3165.9,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 569.86
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 7,
+      "unit_price": 3547.7,
+      "taxable_value": 24833.9,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4470.1
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 11,
+      "unit_price": 1200.89,
+      "taxable_value": 13209.79,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2377.76
+    }
+  ],
+  "taxable_value": 57734.95,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9400.76,
+  "total_tax": 9400.76,
+  "invoice_total": 67135.71,
+  "effective_rate": 16.28,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00391.pdf",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 3290.27
+}

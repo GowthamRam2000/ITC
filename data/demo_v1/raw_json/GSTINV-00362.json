@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00362",
+  "invoice_no": "INV/26/00362",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "CHAUDHARY-PILLAI",
+  "supplier_gstin": "06ESHVM5785T2Z3",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 3,
+      "unit_price": 3012.55,
+      "taxable_value": 9037.65,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1626.78
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 9,
+      "unit_price": 5102.89,
+      "taxable_value": 45926.01,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 12859.28
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 8,
+      "unit_price": 5083.56,
+      "taxable_value": 40668.48,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7320.33
+    }
+  ],
+  "taxable_value": 95632.14,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 21806.39,
+  "total_tax": 21806.39,
+  "invoice_total": 117438.53,
+  "effective_rate": 22.8,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00362.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

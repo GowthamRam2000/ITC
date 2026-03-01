@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00082",
+  "invoice_no": "INV/26/00082",
+  "invoice_date": "2026-01-23",
+  "supplier_name": "BHAT, MURTHY AND BHANDARI",
+  "supplier_gstin": "24LGSHV0960M7ZO",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 11,
+      "unit_price": 199.19,
+      "taxable_value": 2191.09,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 109.55
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 2,
+      "unit_price": 4308.81,
+      "taxable_value": 8617.62,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1034.11
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 11,
+      "unit_price": 6693.07,
+      "taxable_value": 73623.77,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13252.28
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 2,
+      "unit_price": 7618.35,
+      "taxable_value": 15236.7,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2742.61
+    }
+  ],
+  "taxable_value": 99669.18,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 17138.55,
+  "total_tax": 17138.55,
+  "invoice_total": 116807.73,
+  "effective_rate": 17.2,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00082.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1955.6
+}

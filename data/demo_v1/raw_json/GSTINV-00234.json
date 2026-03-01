@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00234",
+  "invoice_no": "INV/26/00234",
+  "invoice_date": "2026-01-10",
+  "supplier_name": "DATE-SWAMINATHAN",
+  "supplier_gstin": "27DNZIH0963K2ZT",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 3,
+      "unit_price": 4766.5,
+      "taxable_value": 14299.5,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1715.94
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 11,
+      "unit_price": 1720.61,
+      "taxable_value": 18926.71,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3406.81
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 5404.57,
+      "taxable_value": 10809.14,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1945.65
+    }
+  ],
+  "taxable_value": 44035.35,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7068.4,
+  "total_tax": 7068.4,
+  "invoice_total": 51103.75,
+  "effective_rate": 16.05,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00234.jpg",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1413.68
+}

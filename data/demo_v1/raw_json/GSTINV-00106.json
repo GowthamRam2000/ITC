@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00106",
+  "invoice_no": "INV/26/00106",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "SAMPATH, MALHOTRA AND BASU",
+  "supplier_gstin": "08BCLLP3771W3Z0",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 9,
+      "unit_price": 4454.33,
+      "taxable_value": 40088.97,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7216.01
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 3,
+      "unit_price": 3236.27,
+      "taxable_value": 9708.81,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1747.59
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 12,
+      "unit_price": 7548.16,
+      "taxable_value": 90577.92,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 16304.03
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 6,
+      "unit_price": 6883.56,
+      "taxable_value": 41301.36,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2065.07
+    }
+  ],
+  "taxable_value": 181677.06,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 27332.7,
+  "total_tax": 27332.7,
+  "invoice_total": 209009.76,
+  "effective_rate": 15.04,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00106.jpg",
+  "mismatch_type": "gstin_status_risk",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 21866.16
+}

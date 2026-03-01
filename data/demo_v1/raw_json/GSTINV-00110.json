@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00110",
+  "invoice_no": "INV/26/00110",
+  "invoice_date": "2026-01-01",
+  "supplier_name": "DIXIT PLC",
+  "supplier_gstin": "24WSCNG4097C1ZE",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 8,
+      "unit_price": 8286.77,
+      "taxable_value": 66294.16,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11932.95
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 10,
+      "unit_price": 920.94,
+      "taxable_value": 9209.4,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 460.47
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 11,
+      "unit_price": 6991.29,
+      "taxable_value": 76904.19,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9228.5
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 10,
+      "unit_price": 4878.34,
+      "taxable_value": 48783.4,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2439.17
+    }
+  ],
+  "taxable_value": 201191.15,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 24061.09,
+  "total_tax": 24061.09,
+  "invoice_total": 225252.24,
+  "effective_rate": 11.96,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00110.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

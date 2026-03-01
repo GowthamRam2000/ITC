@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 88" role="img" aria-labelledby="title desc">
+  <title id="title">GST Intelligence Magic Lockup</title>
+  <desc id="desc">Brand lockup with shield icon and GST Intelligence Magic wordmark.</desc>
+  <g transform="translate(2 2)">
+    <path
+      d="M42 4 68 13v25c0 19-11.8 32.7-26 38-14.2-5.3-26-19-26-38V13L42 4Z"
+      fill="#7AB8FF"
+      fill-opacity=".18"
+      stroke="#93C7FF"
+      stroke-width="2.2"
+    />
+    <g fill="#7AB8FF">
+      <rect x="26" y="21" width="9" height="9" rx="2" />
+      <rect x="39" y="21" width="9" height="9" rx="2" />
+      <rect x="26" y="34" width="9" height="9" rx="2" />
+      <rect x="39" y="34" width="9" height="9" rx="2" />
+    </g>
+    <circle cx="55" cy="50" r="12" fill="#00A389" />
+    <path
+      d="m49.5 50 4.4 4.4 7.5-8.3"
+      fill="none"
+      stroke="#fff"
+      stroke-width="3.2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+  <g fill="#DDEBFF" transform="translate(86 18)">
+    <text font-family="Google Sans Flex, system-ui, sans-serif" font-size="30" font-weight="800">GST Intelligence Magic</text>
+    <text y="34" font-family="Google Sans Flex, system-ui, sans-serif" font-size="16" opacity=".84">Detect ITC risk before filing</text>
+  </g>
+</svg>

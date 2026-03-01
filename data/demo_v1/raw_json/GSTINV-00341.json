@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00341",
+  "invoice_no": "INV/26/00341",
+  "invoice_date": "2026-01-13",
+  "supplier_name": "GALA-KURIAN",
+  "supplier_gstin": "06KBXKO1429X6ZW",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 12,
+      "unit_price": 603.56,
+      "taxable_value": 7242.72,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1303.69
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 7,
+      "unit_price": 6284.87,
+      "taxable_value": 43994.09,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7918.94
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 8,
+      "unit_price": 409.17,
+      "taxable_value": 3273.36,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 392.8
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 11,
+      "unit_price": 6040.96,
+      "taxable_value": 66450.56,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11961.1
+    }
+  ],
+  "taxable_value": 120960.73,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 21576.53,
+  "total_tax": 21576.53,
+  "invoice_total": 142537.26,
+  "effective_rate": 17.84,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00341.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1118.79
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00031",
+  "invoice_no": "INV/26/00031",
+  "invoice_date": "2026-01-18",
+  "supplier_name": "RASTOGI, PATHAK AND KANDA",
+  "supplier_gstin": "33TGJQJ6469K4Z4",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 11,
+      "unit_price": 3541.52,
+      "taxable_value": 38956.72,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7012.21
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 1,
+      "unit_price": 8049.67,
+      "taxable_value": 8049.67,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 965.96
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 8,
+      "unit_price": 1093.09,
+      "taxable_value": 8744.72,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1574.05
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 9,
+      "unit_price": 1256.86,
+      "taxable_value": 11311.74,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1357.41
+    }
+  ],
+  "taxable_value": 67062.85,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 10909.63,
+  "total_tax": 10909.63,
+  "invoice_total": 77972.48,
+  "effective_rate": 16.27,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00031.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

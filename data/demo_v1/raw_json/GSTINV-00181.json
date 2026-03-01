@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00181",
+  "invoice_no": "INV/26/00181",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "BALA-CHACKO",
+  "supplier_gstin": "19HNRMT2775Z1ZZ",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 9,
+      "unit_price": 3782.95,
+      "taxable_value": 34046.55,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6128.38
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 3,
+      "unit_price": 6111.18,
+      "taxable_value": 18333.54,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2200.02
+    }
+  ],
+  "taxable_value": 52380.09,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 8328.4,
+  "total_tax": 8328.4,
+  "invoice_total": 60708.49,
+  "effective_rate": 15.9,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00181.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

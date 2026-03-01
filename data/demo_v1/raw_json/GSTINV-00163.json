@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00163",
+  "invoice_no": "INV/26/00163",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "MALHOTRA, VERMA AND SUNDARAM",
+  "supplier_gstin": "33MFEVA0516B3Z3",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 8150.04,
+      "taxable_value": 73350.36,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8802.04
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 10,
+      "unit_price": 5463.28,
+      "taxable_value": 54632.8,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9833.9
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 2,
+      "unit_price": 1935.05,
+      "taxable_value": 3870.1,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 696.62
+    }
+  ],
+  "taxable_value": 131853.26,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 19332.56,
+  "total_tax": 19332.56,
+  "invoice_total": 151185.82,
+  "effective_rate": 14.66,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00163.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

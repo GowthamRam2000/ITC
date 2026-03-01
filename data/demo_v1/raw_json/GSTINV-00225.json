@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00225",
+  "invoice_no": "INV/26/00225",
+  "invoice_date": "2026-02-18",
+  "supplier_name": "HANS LLC",
+  "supplier_gstin": "27WGNKO3957D8Z5",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 9,
+      "unit_price": 775.61,
+      "taxable_value": 6980.49,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1256.49
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 2,
+      "unit_price": 2175.04,
+      "taxable_value": 4350.08,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 783.01
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 11,
+      "unit_price": 5430.3,
+      "taxable_value": 59733.3,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2986.67
+    }
+  ],
+  "taxable_value": 71063.87,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 5026.17,
+  "total_tax": 5026.17,
+  "invoice_total": 76090.04,
+  "effective_rate": 7.07,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00225.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

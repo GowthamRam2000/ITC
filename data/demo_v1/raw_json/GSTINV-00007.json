@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00007",
+  "invoice_no": "INV/26/00007",
+  "invoice_date": "2026-02-13",
+  "supplier_name": "SEN PLC",
+  "supplier_gstin": "06LXOSJ3168Y2ZR",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 8,
+      "unit_price": 540.83,
+      "taxable_value": 4326.64,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1211.46
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 2,
+      "unit_price": 3945.15,
+      "taxable_value": 7890.3,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 946.84
+    }
+  ],
+  "taxable_value": 12216.94,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 2158.3,
+  "total_tax": 2158.3,
+  "invoice_total": 14375.24,
+  "effective_rate": 17.67,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00007.jpg",
+  "mismatch_type": "gstin_status_risk",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 1726.64
+}

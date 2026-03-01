@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00086",
+  "invoice_no": "INV/26/00086",
+  "invoice_date": "2026-02-09",
+  "supplier_name": "BIR, KEER AND RAVAL",
+  "supplier_gstin": "06DELOK0305K7Z0",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 6194.19,
+      "taxable_value": 12388.38,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2229.91
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 4,
+      "unit_price": 4913.03,
+      "taxable_value": 19652.12,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5502.59
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 11,
+      "unit_price": 3310.53,
+      "taxable_value": 36415.83,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4369.9
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 5,
+      "unit_price": 2643.48,
+      "taxable_value": 13217.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1586.09
+    }
+  ],
+  "taxable_value": 81673.73,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 13688.49,
+  "total_tax": 13688.49,
+  "invoice_total": 95362.22,
+  "effective_rate": 16.76,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00086.png",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 4790.97
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00048",
+  "invoice_no": "INV/26/00048",
+  "invoice_date": "2026-02-26",
+  "supplier_name": "BRAR INC",
+  "supplier_gstin": "06SNDCE4580H8ZM",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 7,
+      "unit_price": 4326.82,
+      "taxable_value": 30287.74,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1514.39
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 7,
+      "unit_price": 8454.12,
+      "taxable_value": 59178.84,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7101.46
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 4,
+      "unit_price": 356.21,
+      "taxable_value": 1424.84,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 256.47
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 12,
+      "unit_price": 5566.67,
+      "taxable_value": 66800.04,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3340.0
+    }
+  ],
+  "taxable_value": 157691.46,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 12212.32,
+  "total_tax": 12212.32,
+  "invoice_total": 169903.78,
+  "effective_rate": 7.74,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00048.png",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 6710.66
+}

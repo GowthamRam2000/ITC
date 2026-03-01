@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00209",
+  "invoice_no": "INV/26/00209",
+  "invoice_date": "2026-01-29",
+  "supplier_name": "SESHADRI-KOHLI",
+  "supplier_gstin": "32VHXBK1666T9ZB",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 2,
+      "unit_price": 6560.13,
+      "taxable_value": 13120.26,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 656.01
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 6,
+      "unit_price": 7641.3,
+      "taxable_value": 45847.8,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8252.6
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 7,
+      "unit_price": 7186.93,
+      "taxable_value": 50308.51,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2515.43
+    }
+  ],
+  "taxable_value": 109276.57,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11424.04,
+  "total_tax": 11424.04,
+  "invoice_total": 120700.61,
+  "effective_rate": 10.45,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00209.png",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 2284.81
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00296",
+  "invoice_no": "INV/26/00296",
+  "invoice_date": "2026-02-01",
+  "supplier_name": "NATARAJAN-PUROHIT",
+  "supplier_gstin": "07CJTJR1742Z7ZQ",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 11,
+      "unit_price": 3151.67,
+      "taxable_value": 34668.37,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9707.14
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 8,
+      "unit_price": 1340.0,
+      "taxable_value": 10720.0,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 536.0
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 12,
+      "unit_price": 6876.35,
+      "taxable_value": 82516.2,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4125.81
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 2,
+      "unit_price": 2954.98,
+      "taxable_value": 5909.96,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 295.5
+    }
+  ],
+  "taxable_value": 133814.53,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 14664.45,
+  "total_tax": 14664.45,
+  "invoice_total": 148478.98,
+  "effective_rate": 10.96,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00296.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

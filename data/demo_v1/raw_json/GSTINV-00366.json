@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00366",
+  "invoice_no": "INV/26/00366",
+  "invoice_date": "2026-01-29",
+  "supplier_name": "BAIL, BEDI AND NATH",
+  "supplier_gstin": "29WWHMG0639U9Z2",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 6,
+      "unit_price": 169.37,
+      "taxable_value": 1016.22,
+      "gst_rate": 5,
+      "cgst": 25.41,
+      "sgst": 25.41,
+      "igst": 0.0
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 6,
+      "unit_price": 2620.18,
+      "taxable_value": 15721.08,
+      "gst_rate": 18,
+      "cgst": 1414.9,
+      "sgst": 1414.9,
+      "igst": 0.0
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 1,
+      "unit_price": 3050.67,
+      "taxable_value": 3050.67,
+      "gst_rate": 5,
+      "cgst": 76.27,
+      "sgst": 76.27,
+      "igst": 0.0
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 7,
+      "unit_price": 3090.98,
+      "taxable_value": 21636.86,
+      "gst_rate": 12,
+      "cgst": 1298.21,
+      "sgst": 1298.21,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 41424.83,
+  "cgst": 2814.79,
+  "sgst": 2814.79,
+  "igst": 0.0,
+  "total_tax": 5629.58,
+  "invoice_total": 47054.41,
+  "effective_rate": 13.59,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00366.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 321.48
+}

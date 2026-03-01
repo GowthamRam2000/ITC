@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00332",
+  "invoice_no": "INV/26/00332",
+  "invoice_date": "2026-02-06",
+  "supplier_name": "TANEJA, MANGAT AND KARPE",
+  "supplier_gstin": "06ZBCTI4254C8ZO",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 7,
+      "unit_price": 436.55,
+      "taxable_value": 3055.85,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 366.7
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 2,
+      "unit_price": 6062.25,
+      "taxable_value": 12124.5,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2182.41
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 6,
+      "unit_price": 5737.08,
+      "taxable_value": 34422.48,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4130.7
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 8,
+      "unit_price": 3986.17,
+      "taxable_value": 31889.36,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5740.08
+    }
+  ],
+  "taxable_value": 81492.19,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 12419.89,
+  "total_tax": 12419.89,
+  "invoice_total": 93912.08,
+  "effective_rate": 15.24,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00332.pdf",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 693.21
+}

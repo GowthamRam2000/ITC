@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00211",
+  "invoice_no": "INV/26/00211",
+  "invoice_date": "2026-02-01",
+  "supplier_name": "TALWAR LLC",
+  "supplier_gstin": "33MVWGH1147X4ZQ",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 6,
+      "unit_price": 4816.28,
+      "taxable_value": 28897.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5201.58
+    }
+  ],
+  "taxable_value": 28897.68,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 5201.58,
+  "total_tax": 5201.58,
+  "invoice_total": 34099.26,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00211.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

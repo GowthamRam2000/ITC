@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">GST Intelligence Magic Icon</title>
+  <desc id="desc">Shield and compliance check icon for GST Intelligence Magic.</desc>
+  <path
+    d="M48 8 76 18v27c0 20-12.7 35-28 41C32.7 80 20 65 20 45V18L48 8Z"
+    fill="#0E4FA4"
+    fill-opacity=".16"
+    stroke="#0E4FA4"
+    stroke-width="2"
+  />
+  <g fill="#0E4FA4">
+    <rect x="30" y="28" width="10" height="10" rx="2" />
+    <rect x="44" y="28" width="10" height="10" rx="2" />
+    <rect x="30" y="42" width="10" height="10" rx="2" />
+    <rect x="44" y="42" width="10" height="10" rx="2" />
+  </g>
+  <circle cx="62" cy="58" r="13" fill="#00A389" />
+  <path
+    d="m56 58 5 5 8-9"
+    fill="none"
+    stroke="#fff"
+    stroke-width="3.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

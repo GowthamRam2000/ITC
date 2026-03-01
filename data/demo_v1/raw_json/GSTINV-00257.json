@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00257",
+  "invoice_no": "INV/26/00257",
+  "invoice_date": "2026-01-24",
+  "supplier_name": "BORA INC",
+  "supplier_gstin": "01HKXJH5957F2ZA",
+  "supplier_state_code": "01",
+  "supplier_state_name": "Jammu and Kashmir",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 11,
+      "unit_price": 6822.97,
+      "taxable_value": 75052.67,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13509.48
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 11,
+      "unit_price": 5968.97,
+      "taxable_value": 65658.67,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11818.56
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 2,
+      "unit_price": 4598.44,
+      "taxable_value": 9196.88,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1655.44
+    }
+  ],
+  "taxable_value": 149908.22,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 26983.48,
+  "total_tax": 26983.48,
+  "invoice_total": 176891.7,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00257.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

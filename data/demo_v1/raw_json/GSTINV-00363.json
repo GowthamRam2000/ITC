@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00363",
+  "invoice_no": "INV/26/00363",
+  "invoice_date": "2026-02-09",
+  "supplier_name": "PARMER, BHAT AND RAO",
+  "supplier_gstin": "09BSZSG6719Z8ZW",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 9,
+      "unit_price": 8011.25,
+      "taxable_value": 72101.25,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 12978.23
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 5,
+      "unit_price": 5446.62,
+      "taxable_value": 27233.1,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3267.97
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 5,
+      "unit_price": 3526.59,
+      "taxable_value": 17632.95,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 881.65
+    }
+  ],
+  "taxable_value": 116967.3,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 17127.85,
+  "total_tax": 17127.85,
+  "invoice_total": 134095.15,
+  "effective_rate": 14.64,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00363.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00368",
+  "invoice_no": "INV/26/00368",
+  "invoice_date": "2026-01-10",
+  "supplier_name": "BISWAS PLC",
+  "supplier_gstin": "19XEFMR2457W3ZK",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 12,
+      "unit_price": 7859.44,
+      "taxable_value": 94313.28,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 26407.72
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 3,
+      "unit_price": 1039.56,
+      "taxable_value": 3118.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 561.36
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 1,
+      "unit_price": 1176.92,
+      "taxable_value": 1176.92,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 58.85
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 9,
+      "unit_price": 234.38,
+      "taxable_value": 2109.42,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 379.7
+    }
+  ],
+  "taxable_value": 100718.3,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 27407.63,
+  "total_tax": 27407.63,
+  "invoice_total": 128125.93,
+  "effective_rate": 27.21,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00368.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

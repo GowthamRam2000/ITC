@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00317",
+  "invoice_no": "INV/26/00317",
+  "invoice_date": "2026-01-01",
+  "supplier_name": "WALI GROUP",
+  "supplier_gstin": "24WQIYU4311T2ZC",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 3098.18,
+      "taxable_value": 15490.9,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4337.45
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 12,
+      "unit_price": 5322.73,
+      "taxable_value": 63872.76,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11497.1
+    }
+  ],
+  "taxable_value": 79363.66,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15834.55,
+  "total_tax": 15834.55,
+  "invoice_total": 95198.21,
+  "effective_rate": 19.95,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00317.png",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 5542.09
+}

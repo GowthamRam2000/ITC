@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00139",
+  "invoice_no": "INV/26/00139",
+  "invoice_date": "2026-01-04",
+  "supplier_name": "MERCHANT-DATTA",
+  "supplier_gstin": "09MCEBH8370Y1Z0",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 6,
+      "unit_price": 3116.08,
+      "taxable_value": 18696.48,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2243.58
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 10,
+      "unit_price": 2368.43,
+      "taxable_value": 23684.3,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4263.17
+    }
+  ],
+  "taxable_value": 42380.78,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6506.75,
+  "total_tax": 6506.75,
+  "invoice_total": 48887.53,
+  "effective_rate": 15.35,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00139.pdf",
+  "mismatch_type": "gstin_status_risk",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 5205.4
+}

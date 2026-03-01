@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00129",
+  "invoice_no": "INV/26/00129",
+  "invoice_date": "2026-02-13",
+  "supplier_name": "LAL AND SONS",
+  "supplier_gstin": "08WQRGK0770E3Z0",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 5,
+      "unit_price": 6092.77,
+      "taxable_value": 30463.85,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5483.49
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 7,
+      "unit_price": 7624.15,
+      "taxable_value": 53369.05,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9606.43
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 8,
+      "unit_price": 2231.75,
+      "taxable_value": 17854.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3213.72
+    }
+  ],
+  "taxable_value": 101686.9,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 18303.64,
+  "total_tax": 18303.64,
+  "invoice_total": 119990.54,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00129.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 18303.64
+}

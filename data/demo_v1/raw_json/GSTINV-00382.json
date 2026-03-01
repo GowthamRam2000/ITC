@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00382",
+  "invoice_no": "INV/26/00382",
+  "invoice_date": "2026-02-19",
+  "supplier_name": "BALASUBRAMANIAN-BHAT",
+  "supplier_gstin": "06PYHCZ1334W7ZL",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 7,
+      "unit_price": 4723.46,
+      "taxable_value": 33064.22,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5951.56
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 9,
+      "unit_price": 4248.0,
+      "taxable_value": 38232.0,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10704.96
+    }
+  ],
+  "taxable_value": 71296.22,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16656.52,
+  "total_tax": 16656.52,
+  "invoice_total": 87952.74,
+  "effective_rate": 23.36,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00382.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 16656.52
+}

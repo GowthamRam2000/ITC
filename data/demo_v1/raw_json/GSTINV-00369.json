@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00369",
+  "invoice_no": "INV/26/00369",
+  "invoice_date": "2026-02-16",
+  "supplier_name": "KALITA AND SONS",
+  "supplier_gstin": "08BVLPA4204T3ZW",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 2,
+      "unit_price": 7361.72,
+      "taxable_value": 14723.44,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2650.22
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 11,
+      "unit_price": 6996.71,
+      "taxable_value": 76963.81,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9235.66
+    }
+  ],
+  "taxable_value": 91687.25,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11885.88,
+  "total_tax": 11885.88,
+  "invoice_total": 103573.13,
+  "effective_rate": 12.96,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00369.jpg",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 883.41
+}

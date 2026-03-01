@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00247",
+  "invoice_no": "INV/26/00247",
+  "invoice_date": "2026-02-22",
+  "supplier_name": "CHAUDHARY, JOHAL AND KAKAR",
+  "supplier_gstin": "29VMNVX4366C4ZT",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 3,
+      "unit_price": 2536.56,
+      "taxable_value": 7609.68,
+      "gst_rate": 18,
+      "cgst": 684.87,
+      "sgst": 684.87,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 7609.68,
+  "cgst": 684.87,
+  "sgst": 684.87,
+  "igst": 0.0,
+  "total_tax": 1369.74,
+  "invoice_total": 8979.42,
+  "effective_rate": 18.0,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00247.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

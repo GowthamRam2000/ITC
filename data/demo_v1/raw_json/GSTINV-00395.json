@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00395",
+  "invoice_no": "INV/26/00395",
+  "invoice_date": "2026-02-01",
+  "supplier_name": "SOM INC",
+  "supplier_gstin": "27WNRGV0937F4ZM",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 9,
+      "unit_price": 5892.4,
+      "taxable_value": 53031.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9545.69
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 12,
+      "unit_price": 3780.25,
+      "taxable_value": 45363.0,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5443.56
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 7,
+      "unit_price": 7016.87,
+      "taxable_value": 49118.09,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8841.26
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 10,
+      "unit_price": 1783.93,
+      "taxable_value": 17839.3,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4995.0
+    }
+  ],
+  "taxable_value": 165351.99,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 28825.51,
+  "total_tax": 28825.51,
+  "invoice_total": 194177.5,
+  "effective_rate": 17.43,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00395.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 2903.77
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00092",
+  "invoice_no": "INV/26/00092",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "MITAL, SHANKAR AND MUTTI",
+  "supplier_gstin": "36PFPKS2780D9ZB",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 8,
+      "unit_price": 1074.94,
+      "taxable_value": 8599.52,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1031.94
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 9,
+      "unit_price": 8214.38,
+      "taxable_value": 73929.42,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13307.3
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 3376.8,
+      "taxable_value": 33768.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6078.24
+    }
+  ],
+  "taxable_value": 116296.94,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 20417.48,
+  "total_tax": 20417.48,
+  "invoice_total": 136714.42,
+  "effective_rate": 17.56,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00092.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

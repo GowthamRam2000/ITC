@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00293",
+  "invoice_no": "INV/26/00293",
+  "invoice_date": "2026-01-31",
+  "supplier_name": "LOKE, AGATE AND MANDAL",
+  "supplier_gstin": "09GOZJG6185Z2ZL",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 4,
+      "unit_price": 1131.37,
+      "taxable_value": 4525.48,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 814.59
+    }
+  ],
+  "taxable_value": 4525.48,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 814.59,
+  "total_tax": 814.59,
+  "invoice_total": 5340.07,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00293.jpg",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 285.11
+}

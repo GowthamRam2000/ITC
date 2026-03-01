@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00160",
+  "invoice_no": "INV/26/00160",
+  "invoice_date": "2026-02-25",
+  "supplier_name": "THAMAN-SANDHU",
+  "supplier_gstin": "33GZZRT1155E8ZM",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 4,
+      "unit_price": 646.78,
+      "taxable_value": 2587.12,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 465.68
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 4,
+      "unit_price": 478.73,
+      "taxable_value": 1914.92,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 344.69
+    }
+  ],
+  "taxable_value": 4502.04,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 810.37,
+  "total_tax": 810.37,
+  "invoice_total": 5312.41,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00160.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

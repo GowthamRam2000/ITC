@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00254",
+  "invoice_no": "INV/26/00254",
+  "invoice_date": "2026-02-27",
+  "supplier_name": "KAUR LLC",
+  "supplier_gstin": "36XDPCF4890S7Z5",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 7,
+      "unit_price": 1585.6,
+      "taxable_value": 11099.2,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1997.86
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 12,
+      "unit_price": 4879.14,
+      "taxable_value": 58549.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10538.94
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 4,
+      "unit_price": 1678.73,
+      "taxable_value": 6714.92,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 805.79
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 5,
+      "unit_price": 4761.4,
+      "taxable_value": 23807.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4285.26
+    }
+  ],
+  "taxable_value": 100170.8,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 17627.85,
+  "total_tax": 17627.85,
+  "invoice_total": 117798.65,
+  "effective_rate": 17.6,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00254.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

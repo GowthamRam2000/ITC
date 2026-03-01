@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00138",
+  "invoice_no": "INV/26/00138",
+  "invoice_date": "2026-02-22",
+  "supplier_name": "MORE, REGE AND NARAIN",
+  "supplier_gstin": "24HBMFY3069S8Z9",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 5,
+      "unit_price": 5519.54,
+      "taxable_value": 27597.7,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1379.89
+    }
+  ],
+  "taxable_value": 27597.7,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1379.89,
+  "total_tax": 1379.89,
+  "invoice_total": 28977.59,
+  "effective_rate": 5.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00138.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

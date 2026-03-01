@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00273",
+  "invoice_no": "INV/26/00273",
+  "invoice_date": "2026-01-28",
+  "supplier_name": "RATTAN-BANSAL",
+  "supplier_gstin": "08DEZLG5439K9ZR",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 3,
+      "unit_price": 3161.92,
+      "taxable_value": 9485.76,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1707.44
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 5,
+      "unit_price": 296.6,
+      "taxable_value": 1483.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 266.94
+    }
+  ],
+  "taxable_value": 10968.76,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1974.38,
+  "total_tax": 1974.38,
+  "invoice_total": 12943.14,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00273.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 1974.38
+}

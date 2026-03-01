@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00269",
+  "invoice_no": "INV/26/00269",
+  "invoice_date": "2026-01-31",
+  "supplier_name": "SWAMY, CHAND AND SINGHAL",
+  "supplier_gstin": "36VCIBU4276J9ZJ",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 7,
+      "unit_price": 3491.28,
+      "taxable_value": 24438.96,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2932.68
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 9,
+      "unit_price": 3918.06,
+      "taxable_value": 35262.54,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6347.26
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 3,
+      "unit_price": 7501.91,
+      "taxable_value": 22505.73,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6301.6
+    }
+  ],
+  "taxable_value": 82207.23,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15581.54,
+  "total_tax": 15581.54,
+  "invoice_total": 97788.77,
+  "effective_rate": 18.95,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00269.pdf",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1466.83
+}

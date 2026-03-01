@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00375",
+  "invoice_no": "INV/26/00375",
+  "invoice_date": "2026-02-10",
+  "supplier_name": "GHOSH LLC",
+  "supplier_gstin": "36NHFSO1020E5Z8",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 4,
+      "unit_price": 4599.91,
+      "taxable_value": 18399.64,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2207.96
+    }
+  ],
+  "taxable_value": 18399.64,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 2207.96,
+  "total_tax": 2207.96,
+  "invoice_total": 20607.6,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00375.pdf",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 1287.98
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00224",
+  "invoice_no": "INV/26/00224",
+  "invoice_date": "2026-01-19",
+  "supplier_name": "KRISHNAMURTHY-KASHYAP",
+  "supplier_gstin": "07DBASM4906N8ZR",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 9,
+      "unit_price": 3674.16,
+      "taxable_value": 33067.44,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5952.14
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 7,
+      "unit_price": 3097.47,
+      "taxable_value": 21682.29,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3902.81
+    }
+  ],
+  "taxable_value": 54749.73,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9854.95,
+  "total_tax": 9854.95,
+  "invoice_total": 64604.68,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00224.jpg",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 3449.23
+}

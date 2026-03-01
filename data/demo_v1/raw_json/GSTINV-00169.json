@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00169",
+  "invoice_no": "INV/26/00169",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "KALA INC",
+  "supplier_gstin": "07QLFRU2055H3Z2",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 3,
+      "unit_price": 847.74,
+      "taxable_value": 2543.22,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 127.16
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 7,
+      "unit_price": 3079.21,
+      "taxable_value": 21554.47,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3879.8
+    }
+  ],
+  "taxable_value": 24097.69,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 4006.96,
+  "total_tax": 4006.96,
+  "invoice_total": 28104.65,
+  "effective_rate": 16.63,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00169.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 4006.96
+}

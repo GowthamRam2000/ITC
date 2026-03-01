@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00339",
+  "invoice_no": "INV/26/00339",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "DEO PLC",
+  "supplier_gstin": "08LPHOZ2849L7ZO",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 7,
+      "unit_price": 4354.35,
+      "taxable_value": 30480.45,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5486.48
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 3,
+      "unit_price": 6988.28,
+      "taxable_value": 20964.84,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3773.67
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 1,
+      "unit_price": 6504.97,
+      "taxable_value": 6504.97,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1170.89
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 6479.23,
+      "taxable_value": 12958.46,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2332.52
+    }
+  ],
+  "taxable_value": 70908.72,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 12763.56,
+  "total_tax": 12763.56,
+  "invoice_total": 83672.28,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00339.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

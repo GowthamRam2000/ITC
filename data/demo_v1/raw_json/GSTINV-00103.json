@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00103",
+  "invoice_no": "INV/26/00103",
+  "invoice_date": "2026-01-25",
+  "supplier_name": "KADE, OZA AND JANI",
+  "supplier_gstin": "19UGQGP7290V5ZD",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 5,
+      "unit_price": 5534.9,
+      "taxable_value": 27674.5,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4981.41
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 8,
+      "unit_price": 3353.72,
+      "taxable_value": 26829.76,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3219.57
+    }
+  ],
+  "taxable_value": 54504.26,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 8200.98,
+  "total_tax": 8200.98,
+  "invoice_total": 62705.24,
+  "effective_rate": 15.05,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00103.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

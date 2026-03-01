@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00089",
+  "invoice_no": "INV/26/00089",
+  "invoice_date": "2026-02-21",
+  "supplier_name": "VIRK, MUTTI AND LAL",
+  "supplier_gstin": "27ZMKNX6573Z9Z5",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 3,
+      "unit_price": 5541.86,
+      "taxable_value": 16625.58,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2992.6
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 10,
+      "unit_price": 8362.64,
+      "taxable_value": 83626.4,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4181.32
+    }
+  ],
+  "taxable_value": 100251.98,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7173.92,
+  "total_tax": 7173.92,
+  "invoice_total": 107425.9,
+  "effective_rate": 7.16,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00089.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 7173.92
+}

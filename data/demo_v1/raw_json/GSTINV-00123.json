@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00123",
+  "invoice_no": "INV/26/00123",
+  "invoice_date": "2026-01-30",
+  "supplier_name": "MODY-KARI",
+  "supplier_gstin": "06IKMRC5183O1ZG",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 4,
+      "unit_price": 7134.72,
+      "taxable_value": 28538.88,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5137.0
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 1,
+      "unit_price": 1386.48,
+      "taxable_value": 1386.48,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 249.57
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 2,
+      "unit_price": 5719.02,
+      "taxable_value": 11438.04,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 571.9
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 7,
+      "unit_price": 8254.51,
+      "taxable_value": 57781.57,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 16178.84
+    }
+  ],
+  "taxable_value": 99144.97,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 22137.31,
+  "total_tax": 22137.31,
+  "invoice_total": 121282.28,
+  "effective_rate": 22.33,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00123.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

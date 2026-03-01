@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00003",
+  "invoice_no": "INV/26/00003",
+  "invoice_date": "2026-02-20",
+  "supplier_name": "CHAUDRY, CHAHAL AND SAMI",
+  "supplier_gstin": "08FRKHB7356R6Z1",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 10,
+      "unit_price": 8186.04,
+      "taxable_value": 81860.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9823.25
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 1,
+      "unit_price": 1028.41,
+      "taxable_value": 1028.41,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 185.11
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 6,
+      "unit_price": 6225.21,
+      "taxable_value": 37351.26,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6723.23
+    }
+  ],
+  "taxable_value": 120240.07,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16731.59,
+  "total_tax": 16731.59,
+  "invoice_total": 136971.66,
+  "effective_rate": 13.92,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00003.jpg",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 3346.32
+}

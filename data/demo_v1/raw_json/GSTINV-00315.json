@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00315",
+  "invoice_no": "INV/26/00315",
+  "invoice_date": "2026-01-28",
+  "supplier_name": "MEMON LLC",
+  "supplier_gstin": "08EIQCM8563I4Z6",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 1,
+      "unit_price": 7005.29,
+      "taxable_value": 7005.29,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1260.95
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 4,
+      "unit_price": 8026.93,
+      "taxable_value": 32107.72,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8990.16
+    }
+  ],
+  "taxable_value": 39113.01,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 10251.11,
+  "total_tax": 10251.11,
+  "invoice_total": 49364.12,
+  "effective_rate": 26.21,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00315.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

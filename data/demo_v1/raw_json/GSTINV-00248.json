@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00248",
+  "invoice_no": "INV/26/00248",
+  "invoice_date": "2026-01-03",
+  "supplier_name": "BUMB-DUGAR",
+  "supplier_gstin": "29YAKRY4470G2Z1",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 11,
+      "unit_price": 2934.65,
+      "taxable_value": 32281.15,
+      "gst_rate": 28,
+      "cgst": 4519.36,
+      "sgst": 4519.36,
+      "igst": 0.0
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 6,
+      "unit_price": 5615.27,
+      "taxable_value": 33691.62,
+      "gst_rate": 18,
+      "cgst": 3032.25,
+      "sgst": 3032.25,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 65972.77,
+  "cgst": 7551.61,
+  "sgst": 7551.61,
+  "igst": 0.0,
+  "total_tax": 15103.22,
+  "invoice_total": 81075.99,
+  "effective_rate": 22.89,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00248.jpg",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 3020.64
+}

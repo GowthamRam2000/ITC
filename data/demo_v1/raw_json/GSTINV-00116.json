@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00116",
+  "invoice_no": "INV/26/00116",
+  "invoice_date": "2026-01-05",
+  "supplier_name": "RAY, DUBEY AND KHALSA",
+  "supplier_gstin": "08ZCRGV9092Z7ZM",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 4,
+      "unit_price": 5085.31,
+      "taxable_value": 20341.24,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2440.95
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 356.37,
+      "taxable_value": 3563.7,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 641.47
+    }
+  ],
+  "taxable_value": 23904.94,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3082.42,
+  "total_tax": 3082.42,
+  "invoice_total": 26987.36,
+  "effective_rate": 12.89,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00116.pdf",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 1220.47
+}

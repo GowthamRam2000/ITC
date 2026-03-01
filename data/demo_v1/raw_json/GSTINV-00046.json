@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00046",
+  "invoice_no": "INV/26/00046",
+  "invoice_date": "2026-02-18",
+  "supplier_name": "CHOUDHURY LLC",
+  "supplier_gstin": "08ZEHUN5756Y3ZO",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 12,
+      "unit_price": 6581.8,
+      "taxable_value": 78981.6,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9477.79
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 12,
+      "unit_price": 3787.7,
+      "taxable_value": 45452.4,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5454.29
+    }
+  ],
+  "taxable_value": 124434.0,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 14932.08,
+  "total_tax": 14932.08,
+  "invoice_total": 139366.08,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00046.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

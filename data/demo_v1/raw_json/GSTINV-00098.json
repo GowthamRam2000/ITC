@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00098",
+  "invoice_no": "INV/26/00098",
+  "invoice_date": "2026-01-30",
+  "supplier_name": "SARMA PLC",
+  "supplier_gstin": "07SDDIG8316U7ZO",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 7,
+      "unit_price": 4440.84,
+      "taxable_value": 31085.88,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1554.29
+    }
+  ],
+  "taxable_value": 31085.88,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1554.29,
+  "total_tax": 1554.29,
+  "invoice_total": 32640.17,
+  "effective_rate": 5.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00098.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

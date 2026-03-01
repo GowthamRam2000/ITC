@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-02-28T19:34:06Z",
+  "seed": 20260301,
+  "bundle_root": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3",
+  "sets": {
+    "baseline_json": {
+      "invoice_file": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/01_baseline_json/invoice_truth.jsonl",
+      "gstr_jsonl_file": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/01_baseline_json/gstr2b_truth.jsonl",
+      "gstr_csv_file": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/01_baseline_json/gstr2b_truth.csv"
+    },
+    "hybrid_docs": {
+      "invoice_rows": 6,
+      "gstr2b_rows": 4,
+      "docs": [
+        "GSTINV-00001.jpg",
+        "GSTINV-00013.pdf",
+        "GSTINV-00020.jpg",
+        "GSTINV-00063.pdf",
+        "GSTINV-00106.jpg",
+        "GSTINV-00229.pdf"
+      ],
+      "invoice_file": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/02_hybrid_docs/invoice_truth.jsonl",
+      "gstr_jsonl_file": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/02_hybrid_docs/gstr2b_truth.jsonl",
+      "gstr_csv_file": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/02_hybrid_docs/gstr2b_truth.csv",
+      "docs_dir": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/02_hybrid_docs/docs"
+    },
+    "cycles_root": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/upload_sets/03_cycles",
+    "sample_prompts": "/Users/gowthamram/PycharmProjects/ITC/data/demo_full_v3/sample_prompts.txt"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00253",
+  "invoice_no": "INV/26/00253",
+  "invoice_date": "2026-02-05",
+  "supplier_name": "MANDAL-SETTY",
+  "supplier_gstin": "24FIPYX3183L1ZI",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 8,
+      "unit_price": 7446.65,
+      "taxable_value": 59573.2,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10723.18
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 4,
+      "unit_price": 6219.41,
+      "taxable_value": 24877.64,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1243.88
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 12,
+      "unit_price": 8437.96,
+      "taxable_value": 101255.52,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 18225.99
+    }
+  ],
+  "taxable_value": 185706.36,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 30193.05,
+  "total_tax": 30193.05,
+  "invoice_total": 215899.41,
+  "effective_rate": 16.26,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00253.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 30193.05
+}

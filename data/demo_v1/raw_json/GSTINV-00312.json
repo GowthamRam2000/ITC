@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00312",
+  "invoice_no": "INV/26/00312",
+  "invoice_date": "2026-01-01",
+  "supplier_name": "CHAUDHARI-CHAUDHRY",
+  "supplier_gstin": "09RSEVQ8299B5ZV",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 4,
+      "unit_price": 8368.13,
+      "taxable_value": 33472.52,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1673.63
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 7409.9,
+      "taxable_value": 14819.8,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2667.56
+    }
+  ],
+  "taxable_value": 48292.32,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 4341.19,
+  "total_tax": 4341.19,
+  "invoice_total": 52633.51,
+  "effective_rate": 8.99,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00312.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00179",
+  "invoice_no": "INV/26/00179",
+  "invoice_date": "2026-01-25",
+  "supplier_name": "RAVEL, GANDHI AND SIBAL",
+  "supplier_gstin": "24NZCQC9327O3Z8",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 1,
+      "unit_price": 5680.54,
+      "taxable_value": 5680.54,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 284.03
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 8,
+      "unit_price": 4035.08,
+      "taxable_value": 32280.64,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5810.52
+    }
+  ],
+  "taxable_value": 37961.18,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6094.55,
+  "total_tax": 6094.55,
+  "invoice_total": 44055.73,
+  "effective_rate": 16.05,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00179.pdf",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 674.29
+}

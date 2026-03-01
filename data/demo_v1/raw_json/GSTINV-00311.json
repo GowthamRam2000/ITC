@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00311",
+  "invoice_no": "INV/26/00311",
+  "invoice_date": "2026-02-26",
+  "supplier_name": "MANI, KARAN AND CHANA",
+  "supplier_gstin": "27AAEOS4308U2ZY",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 6,
+      "unit_price": 8265.69,
+      "taxable_value": 49594.14,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2479.71
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 10,
+      "unit_price": 3119.75,
+      "taxable_value": 31197.5,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5615.55
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 12,
+      "unit_price": 8364.21,
+      "taxable_value": 100370.52,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 12044.46
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 8,
+      "unit_price": 3224.63,
+      "taxable_value": 25797.04,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1289.85
+    }
+  ],
+  "taxable_value": 206959.2,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 21429.57,
+  "total_tax": 21429.57,
+  "invoice_total": 228388.77,
+  "effective_rate": 10.35,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00311.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1369.68
+}

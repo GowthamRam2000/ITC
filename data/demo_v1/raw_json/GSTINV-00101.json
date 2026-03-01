@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00101",
+  "invoice_no": "INV/26/00101",
+  "invoice_date": "2026-02-23",
+  "supplier_name": "D’ALIA-CHHABRA",
+  "supplier_gstin": "06AMDFR0689N3ZU",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 6243.8,
+      "taxable_value": 12487.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2247.77
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 2,
+      "unit_price": 2745.89,
+      "taxable_value": 5491.78,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 274.59
+    }
+  ],
+  "taxable_value": 17979.38,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 2522.36,
+  "total_tax": 2522.36,
+  "invoice_total": 20501.74,
+  "effective_rate": 14.03,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00101.png",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 713.93
+}

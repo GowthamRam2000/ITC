@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00099",
+  "invoice_no": "INV/26/00099",
+  "invoice_date": "2026-02-14",
+  "supplier_name": "MITTAL, WADHWA AND ANAND",
+  "supplier_gstin": "27YIAUT7463C9ZP",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 8,
+      "unit_price": 2370.34,
+      "taxable_value": 18962.72,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2275.53
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 6,
+      "unit_price": 4706.46,
+      "taxable_value": 28238.76,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5082.98
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 10,
+      "unit_price": 7263.3,
+      "taxable_value": 72633.0,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8715.96
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 11,
+      "unit_price": 6507.69,
+      "taxable_value": 71584.59,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 12885.23
+    }
+  ],
+  "taxable_value": 191419.07,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 28959.7,
+  "total_tax": 28959.7,
+  "invoice_total": 220378.77,
+  "effective_rate": 15.13,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00099.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

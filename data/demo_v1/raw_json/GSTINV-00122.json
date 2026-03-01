@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00122",
+  "invoice_no": "INV/26/00122",
+  "invoice_date": "2026-02-15",
+  "supplier_name": "IYENGAR GROUP",
+  "supplier_gstin": "36ORHCK5400C5ZU",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 4,
+      "unit_price": 1551.57,
+      "taxable_value": 6206.28,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 310.31
+    }
+  ],
+  "taxable_value": 6206.28,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 310.31,
+  "total_tax": 310.31,
+  "invoice_total": 6516.59,
+  "effective_rate": 5.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00122.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 310.31
+}

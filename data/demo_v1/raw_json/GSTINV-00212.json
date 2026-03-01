@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00212",
+  "invoice_no": "INV/26/00212",
+  "invoice_date": "2026-01-05",
+  "supplier_name": "SURA AND SONS",
+  "supplier_gstin": "08AFHUI5306K7Z1",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 6,
+      "unit_price": 7107.46,
+      "taxable_value": 42644.76,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5117.37
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 8,
+      "unit_price": 6800.99,
+      "taxable_value": 54407.92,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9793.43
+    }
+  ],
+  "taxable_value": 97052.68,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 14910.8,
+  "total_tax": 14910.8,
+  "invoice_total": 111963.48,
+  "effective_rate": 15.36,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00212.pdf",
+  "mismatch_type": "gstin_status_risk",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 11928.64
+}

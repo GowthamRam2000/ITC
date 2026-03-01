@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00330",
+  "invoice_no": "INV/26/00330",
+  "invoice_date": "2026-02-06",
+  "supplier_name": "RANDHAWA LLC",
+  "supplier_gstin": "27EOIFS4294M4ZX",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 8,
+      "unit_price": 4947.99,
+      "taxable_value": 39583.92,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7125.11
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 5,
+      "unit_price": 5535.99,
+      "taxable_value": 27679.95,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1384.0
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 6,
+      "unit_price": 5988.65,
+      "taxable_value": 35931.9,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6467.74
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 7,
+      "unit_price": 5257.17,
+      "taxable_value": 36800.19,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6624.03
+    }
+  ],
+  "taxable_value": 139995.96,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 21600.88,
+  "total_tax": 21600.88,
+  "invoice_total": 161596.84,
+  "effective_rate": 15.43,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00330.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

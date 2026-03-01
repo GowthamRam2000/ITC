@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00367",
+  "invoice_no": "INV/26/00367",
+  "invoice_date": "2026-02-19",
+  "supplier_name": "DASS PLC",
+  "supplier_gstin": "07UGMJJ8529V8ZA",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 1,
+      "unit_price": 3130.4,
+      "taxable_value": 3130.4,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 563.47
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 2,
+      "unit_price": 1708.57,
+      "taxable_value": 3417.14,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 410.06
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 3,
+      "unit_price": 3426.3,
+      "taxable_value": 10278.9,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 513.95
+    }
+  ],
+  "taxable_value": 16826.44,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 1487.48,
+  "total_tax": 1487.48,
+  "invoice_total": 18313.92,
+  "effective_rate": 8.84,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00367.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00227",
+  "invoice_no": "INV/26/00227",
+  "invoice_date": "2026-02-11",
+  "supplier_name": "HANDA AND SONS",
+  "supplier_gstin": "09BMEBZ8620Q2ZH",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 5,
+      "unit_price": 2426.32,
+      "taxable_value": 12131.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2183.69
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 1,
+      "unit_price": 6333.18,
+      "taxable_value": 6333.18,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1139.97
+    }
+  ],
+  "taxable_value": 18464.78,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3323.66,
+  "total_tax": 3323.66,
+  "invoice_total": 21788.44,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00227.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

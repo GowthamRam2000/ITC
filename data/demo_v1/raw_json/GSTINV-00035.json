@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00035",
+  "invoice_no": "INV/26/00035",
+  "invoice_date": "2026-01-02",
+  "supplier_name": "BHATT-RAJAN",
+  "supplier_gstin": "32NLPCS8677G7ZS",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 6,
+      "unit_price": 7053.77,
+      "taxable_value": 42322.62,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7618.07
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 7,
+      "unit_price": 6234.15,
+      "taxable_value": 43639.05,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7855.03
+    }
+  ],
+  "taxable_value": 85961.67,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15473.1,
+  "total_tax": 15473.1,
+  "invoice_total": 101434.77,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00035.jpg",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 5415.59
+}

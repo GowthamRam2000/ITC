@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00016",
+  "invoice_no": "INV/26/00016",
+  "invoice_date": "2026-02-27",
+  "supplier_name": "BOASE, BATH AND KARI",
+  "supplier_gstin": "07ETHPT5982L3ZJ",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 1,
+      "unit_price": 8284.59,
+      "taxable_value": 8284.59,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1491.23
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 5964.36,
+      "taxable_value": 29821.8,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8350.1
+    }
+  ],
+  "taxable_value": 38106.39,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9841.33,
+  "total_tax": 9841.33,
+  "invoice_total": 47947.72,
+  "effective_rate": 25.83,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00016.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

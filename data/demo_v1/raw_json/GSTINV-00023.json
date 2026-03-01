@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00023",
+  "invoice_no": "INV/26/00023",
+  "invoice_date": "2026-01-20",
+  "supplier_name": "MADAN-KANDA",
+  "supplier_gstin": "06QEYHS4444E7ZC",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 5,
+      "unit_price": 6595.02,
+      "taxable_value": 32975.1,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1648.76
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 6,
+      "unit_price": 7949.0,
+      "taxable_value": 47694.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8584.92
+    }
+  ],
+  "taxable_value": 80669.1,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 10233.68,
+  "total_tax": 10233.68,
+  "invoice_total": 90902.78,
+  "effective_rate": 12.69,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00023.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

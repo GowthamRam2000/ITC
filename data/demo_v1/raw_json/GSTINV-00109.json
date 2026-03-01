@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00109",
+  "invoice_no": "INV/26/00109",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "SANE, ANDRA AND CHOUDHURY",
+  "supplier_gstin": "06WWUIC4327X4ZT",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 12,
+      "unit_price": 7665.71,
+      "taxable_value": 91988.52,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11038.62
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 3,
+      "unit_price": 173.45,
+      "taxable_value": 520.35,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 62.44
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 1,
+      "unit_price": 2072.52,
+      "taxable_value": 2072.52,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 373.05
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 11,
+      "unit_price": 7155.63,
+      "taxable_value": 78711.93,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 14168.15
+    }
+  ],
+  "taxable_value": 173293.32,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 25642.26,
+  "total_tax": 25642.26,
+  "invoice_total": 198935.58,
+  "effective_rate": 14.8,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00109.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 2862.37
+}

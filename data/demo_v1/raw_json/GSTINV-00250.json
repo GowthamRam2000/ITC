@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00250",
+  "invoice_no": "INV/26/00250",
+  "invoice_date": "2026-02-18",
+  "supplier_name": "DUGAR INC",
+  "supplier_gstin": "33UEDZO4327V6ZM",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 9,
+      "unit_price": 8294.4,
+      "taxable_value": 74649.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13436.93
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 1138.09,
+      "taxable_value": 5690.45,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1593.33
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 7,
+      "unit_price": 7922.36,
+      "taxable_value": 55456.52,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2772.83
+    }
+  ],
+  "taxable_value": 135796.57,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 17803.09,
+  "total_tax": 17803.09,
+  "invoice_total": 153599.66,
+  "effective_rate": 13.11,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00250.png",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 6231.08
+}

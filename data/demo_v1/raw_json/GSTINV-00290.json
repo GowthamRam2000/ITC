@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00290",
+  "invoice_no": "INV/26/00290",
+  "invoice_date": "2026-01-27",
+  "supplier_name": "RAJAGOPAL AND SONS",
+  "supplier_gstin": "07QLQUE3440F3ZS",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 8,
+      "unit_price": 5024.2,
+      "taxable_value": 40193.6,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2009.68
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 5,
+      "unit_price": 4891.83,
+      "taxable_value": 24459.15,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2935.1
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 1,
+      "unit_price": 2917.66,
+      "taxable_value": 2917.66,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 525.18
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 11,
+      "unit_price": 7223.14,
+      "taxable_value": 79454.54,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3972.73
+    }
+  ],
+  "taxable_value": 147024.95,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9442.69,
+  "total_tax": 9442.69,
+  "invoice_total": 156467.64,
+  "effective_rate": 6.42,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00290.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 753.56
+}

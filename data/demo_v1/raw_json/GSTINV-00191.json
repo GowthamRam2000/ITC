@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00191",
+  "invoice_no": "INV/26/00191",
+  "invoice_date": "2026-01-16",
+  "supplier_name": "BAHRI PLC",
+  "supplier_gstin": "29KCQJL6811M9ZL",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 10,
+      "unit_price": 3832.44,
+      "taxable_value": 38324.4,
+      "gst_rate": 28,
+      "cgst": 5365.42,
+      "sgst": 5365.42,
+      "igst": 0.0
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 6,
+      "unit_price": 4729.68,
+      "taxable_value": 28378.08,
+      "gst_rate": 18,
+      "cgst": 2554.03,
+      "sgst": 2554.03,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 66702.48,
+  "cgst": 7919.45,
+  "sgst": 7919.45,
+  "igst": 0.0,
+  "total_tax": 15838.9,
+  "invoice_total": 82541.38,
+  "effective_rate": 23.75,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00191.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00349",
+  "invoice_no": "INV/26/00349",
+  "invoice_date": "2026-02-20",
+  "supplier_name": "KAUR GROUP",
+  "supplier_gstin": "32BIXTS6794H4ZG",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 2,
+      "unit_price": 866.99,
+      "taxable_value": 1733.98,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 86.7
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 4,
+      "unit_price": 6359.9,
+      "taxable_value": 25439.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4579.13
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 10,
+      "unit_price": 3201.64,
+      "taxable_value": 32016.4,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1600.82
+    }
+  ],
+  "taxable_value": 59189.98,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6266.65,
+  "total_tax": 6266.65,
+  "invoice_total": 65456.63,
+  "effective_rate": 10.59,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00349.pdf",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 689.4
+}

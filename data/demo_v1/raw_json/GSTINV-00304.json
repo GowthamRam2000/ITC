@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00304",
+  "invoice_no": "INV/26/00304",
+  "invoice_date": "2026-01-13",
+  "supplier_name": "VORA GROUP",
+  "supplier_gstin": "19CQQKX3064I2ZA",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 11,
+      "unit_price": 6791.81,
+      "taxable_value": 74709.91,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13447.78
+    }
+  ],
+  "taxable_value": 74709.91,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 13447.78,
+  "total_tax": 13447.78,
+  "invoice_total": 88157.69,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00304.pdf",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 2689.56
+}

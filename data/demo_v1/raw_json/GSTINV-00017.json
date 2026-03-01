@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00017",
+  "invoice_no": "INV/26/00017",
+  "invoice_date": "2026-02-23",
+  "supplier_name": "BUCH-KAUL",
+  "supplier_gstin": "27CAHMI9281C7ZV",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 3,
+      "unit_price": 6917.37,
+      "taxable_value": 20752.11,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2490.25
+    }
+  ],
+  "taxable_value": 20752.11,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 2490.25,
+  "total_tax": 2490.25,
+  "invoice_total": 23242.36,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00017.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 2490.25
+}

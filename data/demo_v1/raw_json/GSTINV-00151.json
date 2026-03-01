@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00151",
+  "invoice_no": "INV/26/00151",
+  "invoice_date": "2026-01-27",
+  "supplier_name": "SOMAN PLC",
+  "supplier_gstin": "24HGEVA4909T1ZJ",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 12,
+      "unit_price": 2783.66,
+      "taxable_value": 33403.92,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1670.2
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 3,
+      "unit_price": 4482.68,
+      "taxable_value": 13448.04,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1613.76
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 3,
+      "unit_price": 3605.5,
+      "taxable_value": 10816.5,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3028.62
+    }
+  ],
+  "taxable_value": 57668.46,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6312.58,
+  "total_tax": 6312.58,
+  "invoice_total": 63981.04,
+  "effective_rate": 10.95,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00151.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 551.0
+}

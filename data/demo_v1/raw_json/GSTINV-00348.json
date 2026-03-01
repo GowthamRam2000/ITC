@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00348",
+  "invoice_no": "INV/26/00348",
+  "invoice_date": "2026-02-07",
+  "supplier_name": "LALA, RAJ AND PRABHU",
+  "supplier_gstin": "27ELDRG2760N1ZA",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 4,
+      "unit_price": 6146.69,
+      "taxable_value": 24586.76,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4425.62
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 11,
+      "unit_price": 1151.56,
+      "taxable_value": 12667.16,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2280.09
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 5429.13,
+      "taxable_value": 48862.17,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5863.46
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 2,
+      "unit_price": 6786.63,
+      "taxable_value": 13573.26,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2443.19
+    }
+  ],
+  "taxable_value": 99689.35,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15012.36,
+  "total_tax": 15012.36,
+  "invoice_total": 114701.71,
+  "effective_rate": 15.06,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00348.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 15012.36
+}

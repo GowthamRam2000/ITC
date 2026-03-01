@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00182",
+  "invoice_no": "INV/26/00182",
+  "invoice_date": "2026-02-01",
+  "supplier_name": "SANGHA, DESHMUKH AND SHENOY",
+  "supplier_gstin": "24VFCQN7662U9ZH",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 3,
+      "unit_price": 1264.91,
+      "taxable_value": 3794.73,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 189.74
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 11,
+      "unit_price": 3935.77,
+      "taxable_value": 43293.47,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2164.67
+    }
+  ],
+  "taxable_value": 47088.2,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 2354.41,
+  "total_tax": 2354.41,
+  "invoice_total": 49442.61,
+  "effective_rate": 5.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00182.jpg",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 824.04
+}

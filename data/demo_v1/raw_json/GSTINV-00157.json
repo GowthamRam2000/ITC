@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00157",
+  "invoice_no": "INV/26/00157",
+  "invoice_date": "2026-01-19",
+  "supplier_name": "SHETTY, BEDI AND KRISH",
+  "supplier_gstin": "27QBRGF5936H2ZI",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 6,
+      "unit_price": 4191.52,
+      "taxable_value": 25149.12,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3017.89
+    }
+  ],
+  "taxable_value": 25149.12,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3017.89,
+  "total_tax": 3017.89,
+  "invoice_total": 28167.01,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00157.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

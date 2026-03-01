@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00044",
+  "invoice_no": "INV/26/00044",
+  "invoice_date": "2026-01-08",
+  "supplier_name": "ZACHARIA PLC",
+  "supplier_gstin": "29QBSZN6393Y6Z3",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 6,
+      "unit_price": 911.96,
+      "taxable_value": 5471.76,
+      "gst_rate": 5,
+      "cgst": 136.8,
+      "sgst": 136.8,
+      "igst": 0.0
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 5,
+      "unit_price": 2231.72,
+      "taxable_value": 11158.6,
+      "gst_rate": 18,
+      "cgst": 1004.28,
+      "sgst": 1004.28,
+      "igst": 0.0
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 3,
+      "unit_price": 2913.57,
+      "taxable_value": 8740.71,
+      "gst_rate": 18,
+      "cgst": 786.67,
+      "sgst": 786.67,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 25371.07,
+  "cgst": 1927.75,
+  "sgst": 1927.75,
+  "igst": 0.0,
+  "total_tax": 3855.5,
+  "invoice_total": 29226.57,
+  "effective_rate": 15.2,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00044.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

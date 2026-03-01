@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00309",
+  "invoice_no": "INV/26/00309",
+  "invoice_date": "2026-01-05",
+  "supplier_name": "NADIG-SURA",
+  "supplier_gstin": "27BVYQQ1092I7ZM",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 9,
+      "unit_price": 2477.39,
+      "taxable_value": 22296.51,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4013.37
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 12,
+      "unit_price": 4595.67,
+      "taxable_value": 55148.04,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6617.76
+    }
+  ],
+  "taxable_value": 77444.55,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 10631.13,
+  "total_tax": 10631.13,
+  "invoice_total": 88075.68,
+  "effective_rate": 13.73,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00309.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

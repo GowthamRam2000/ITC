@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00389",
+  "invoice_no": "INV/26/00389",
+  "invoice_date": "2026-01-21",
+  "supplier_name": "SANI, CHAUDHARY AND CONTRACTOR",
+  "supplier_gstin": "08IKJDR3855Y3Z1",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 10,
+      "unit_price": 7400.65,
+      "taxable_value": 74006.5,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13321.17
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 5,
+      "unit_price": 1471.05,
+      "taxable_value": 7355.25,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 367.76
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 2,
+      "unit_price": 7538.01,
+      "taxable_value": 15076.02,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2713.68
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 12,
+      "unit_price": 2060.56,
+      "taxable_value": 24726.72,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1236.34
+    }
+  ],
+  "taxable_value": 121164.49,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 17638.95,
+  "total_tax": 17638.95,
+  "invoice_total": 138803.44,
+  "effective_rate": 14.56,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00389.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

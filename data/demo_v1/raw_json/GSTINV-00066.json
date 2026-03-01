@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00066",
+  "invoice_no": "INV/26/00066",
+  "invoice_date": "2026-02-08",
+  "supplier_name": "ROY-SIBAL",
+  "supplier_gstin": "29IJUSQ6612R5ZE",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 12,
+      "unit_price": 6027.8,
+      "taxable_value": 72333.6,
+      "gst_rate": 12,
+      "cgst": 4340.02,
+      "sgst": 4340.02,
+      "igst": 0.0
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 8,
+      "unit_price": 3042.97,
+      "taxable_value": 24343.76,
+      "gst_rate": 18,
+      "cgst": 2190.94,
+      "sgst": 2190.94,
+      "igst": 0.0
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 5,
+      "unit_price": 1141.31,
+      "taxable_value": 5706.55,
+      "gst_rate": 18,
+      "cgst": 513.59,
+      "sgst": 513.59,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 102383.91,
+  "cgst": 7044.55,
+  "sgst": 7044.55,
+  "igst": 0.0,
+  "total_tax": 14089.1,
+  "invoice_total": 116473.01,
+  "effective_rate": 13.76,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00066.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 14089.1
+}

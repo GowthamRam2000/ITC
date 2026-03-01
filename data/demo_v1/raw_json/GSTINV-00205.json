@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00205",
+  "invoice_no": "INV/26/00205",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "GODA-VIG",
+  "supplier_gstin": "08NKTON6023J5ZT",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 10,
+      "unit_price": 7821.5,
+      "taxable_value": 78215.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 14078.7
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 3,
+      "unit_price": 4004.79,
+      "taxable_value": 12014.37,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3364.02
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 2,
+      "unit_price": 6175.78,
+      "taxable_value": 12351.56,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2223.28
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 3,
+      "unit_price": 6645.77,
+      "taxable_value": 19937.31,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 996.87
+    }
+  ],
+  "taxable_value": 122518.24,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 20662.87,
+  "total_tax": 20662.87,
+  "invoice_total": 143181.11,
+  "effective_rate": 16.87,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00205.pdf",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 7232.0
+}

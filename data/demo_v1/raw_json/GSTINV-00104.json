@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00104",
+  "invoice_no": "INV/26/00104",
+  "invoice_date": "2026-02-26",
+  "supplier_name": "LALLA, TIWARI AND SURESH",
+  "supplier_gstin": "32BXAJI3845F8Z4",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 5,
+      "unit_price": 1927.93,
+      "taxable_value": 9639.65,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 481.98
+    }
+  ],
+  "taxable_value": 9639.65,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 481.98,
+  "total_tax": 481.98,
+  "invoice_total": 10121.63,
+  "effective_rate": 5.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00104.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

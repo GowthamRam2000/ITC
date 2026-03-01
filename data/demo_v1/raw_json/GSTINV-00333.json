@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00333",
+  "invoice_no": "INV/26/00333",
+  "invoice_date": "2026-02-18",
+  "supplier_name": "PANDEY, KANDA AND GUPTA",
+  "supplier_gstin": "27DVVEA1253C1ZH",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 3,
+      "unit_price": 1935.71,
+      "taxable_value": 5807.13,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1045.28
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 11,
+      "unit_price": 4580.66,
+      "taxable_value": 50387.26,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2519.36
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 12,
+      "unit_price": 520.2,
+      "taxable_value": 6242.4,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1123.63
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 11,
+      "unit_price": 5672.08,
+      "taxable_value": 62392.88,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 17470.01
+    }
+  ],
+  "taxable_value": 124829.67,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 22158.28,
+  "total_tax": 22158.28,
+  "invoice_total": 146987.95,
+  "effective_rate": 17.75,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00333.png",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 12794.03
+}

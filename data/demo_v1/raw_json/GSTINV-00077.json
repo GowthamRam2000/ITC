@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00077",
+  "invoice_no": "INV/26/00077",
+  "invoice_date": "2026-02-10",
+  "supplier_name": "GALA GROUP",
+  "supplier_gstin": "24ZODGF6980X4Z3",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 10,
+      "unit_price": 451.41,
+      "taxable_value": 4514.1,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 812.54
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 4,
+      "unit_price": 6862.97,
+      "taxable_value": 27451.88,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1372.59
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 12,
+      "unit_price": 5746.76,
+      "taxable_value": 68961.12,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 12413.0
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 8,
+      "unit_price": 1870.49,
+      "taxable_value": 14963.92,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1795.67
+    }
+  ],
+  "taxable_value": 115891.02,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16393.8,
+  "total_tax": 16393.8,
+  "invoice_total": 132284.82,
+  "effective_rate": 14.15,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00077.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

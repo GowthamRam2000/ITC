@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00340",
+  "invoice_no": "INV/26/00340",
+  "invoice_date": "2026-02-27",
+  "supplier_name": "WALI-THAKER",
+  "supplier_gstin": "29SGMLJ6014E4Z0",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 7,
+      "unit_price": 7877.29,
+      "taxable_value": 55141.03,
+      "gst_rate": 18,
+      "cgst": 4962.7,
+      "sgst": 4962.7,
+      "igst": 0.0
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 12,
+      "unit_price": 3246.95,
+      "taxable_value": 38963.4,
+      "gst_rate": 18,
+      "cgst": 3506.71,
+      "sgst": 3506.71,
+      "igst": 0.0
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 5,
+      "unit_price": 5491.99,
+      "taxable_value": 27459.95,
+      "gst_rate": 18,
+      "cgst": 2471.4,
+      "sgst": 2471.4,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 121564.38,
+  "cgst": 10940.81,
+  "sgst": 10940.81,
+  "igst": 0.0,
+  "total_tax": 21881.62,
+  "invoice_total": 143446.0,
+  "effective_rate": 18.0,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00340.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

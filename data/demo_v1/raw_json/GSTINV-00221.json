@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00221",
+  "invoice_no": "INV/26/00221",
+  "invoice_date": "2026-02-22",
+  "supplier_name": "PILLAY, SOLANKI AND WALI",
+  "supplier_gstin": "27ICLIK5658K8Z3",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 10,
+      "unit_price": 7689.29,
+      "taxable_value": 76892.9,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9227.15
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 3,
+      "unit_price": 5658.19,
+      "taxable_value": 16974.57,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 848.73
+    }
+  ],
+  "taxable_value": 93867.47,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 10075.88,
+  "total_tax": 10075.88,
+  "invoice_total": 103943.35,
+  "effective_rate": 10.73,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00221.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 819.06
+}

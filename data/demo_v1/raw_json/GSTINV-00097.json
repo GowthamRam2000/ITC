@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00097",
+  "invoice_no": "INV/26/00097",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "PINGLE LLC",
+  "supplier_gstin": "32RWPLQ7885R5ZY",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 5,
+      "unit_price": 4919.52,
+      "taxable_value": 24597.6,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4427.57
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 11,
+      "unit_price": 6951.22,
+      "taxable_value": 76463.42,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 21409.76
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 7,
+      "unit_price": 7819.28,
+      "taxable_value": 54734.96,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6568.2
+    }
+  ],
+  "taxable_value": 155795.98,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 32405.53,
+  "total_tax": 32405.53,
+  "invoice_total": 188201.51,
+  "effective_rate": 20.8,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00097.pdf",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 4362.25
+}

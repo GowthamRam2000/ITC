@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.MuiDataGrid-cell .MuiChip-root {
+  max-width: 100%;
+  width: fit-content;
+  min-width: 72px;
+}
+
+.MuiDataGrid-cell .MuiChip-label {
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.glass-surface {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+  box-shadow: 0 10px 24px rgba(16, 42, 72, 0.08);
+}
+
+.glass-surface-soft {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 10px 30px rgba(12, 32, 56, 0.12);
+}

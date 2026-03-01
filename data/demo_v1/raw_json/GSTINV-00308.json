@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00308",
+  "invoice_no": "INV/26/00308",
+  "invoice_date": "2026-01-04",
+  "supplier_name": "BUCH, NARASIMHAN AND WALLA",
+  "supplier_gstin": "33GXGZR2573N8Z5",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 6,
+      "unit_price": 4648.89,
+      "taxable_value": 27893.34,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3347.2
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 4,
+      "unit_price": 4624.55,
+      "taxable_value": 18498.2,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2219.78
+    }
+  ],
+  "taxable_value": 46391.54,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 5566.98,
+  "total_tax": 5566.98,
+  "invoice_total": 51958.52,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00308.jpg",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1113.4
+}

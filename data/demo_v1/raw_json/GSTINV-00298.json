@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00298",
+  "invoice_no": "INV/26/00298",
+  "invoice_date": "2026-02-06",
+  "supplier_name": "KHARE, RAJAGOPAL AND KAUR",
+  "supplier_gstin": "08XQQLI8678C1ZY",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 8432.32,
+      "taxable_value": 75890.88,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9106.91
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 4,
+      "unit_price": 897.83,
+      "taxable_value": 3591.32,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 646.44
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 4488.79,
+      "taxable_value": 22443.95,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6284.31
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 1,
+      "unit_price": 353.73,
+      "taxable_value": 353.73,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 42.45
+    }
+  ],
+  "taxable_value": 102279.88,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16080.11,
+  "total_tax": 16080.11,
+  "invoice_total": 118359.99,
+  "effective_rate": 15.72,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00298.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

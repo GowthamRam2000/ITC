@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00291",
+  "invoice_no": "INV/26/00291",
+  "invoice_date": "2026-02-26",
+  "supplier_name": "TRIVEDI, DESHPANDE AND BOASE",
+  "supplier_gstin": "36OHMMP6684W1ZX",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 6,
+      "unit_price": 4756.28,
+      "taxable_value": 28537.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5136.78
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 11,
+      "unit_price": 3615.61,
+      "taxable_value": 39771.71,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7158.91
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 2,
+      "unit_price": 4266.33,
+      "taxable_value": 8532.66,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1535.88
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 8,
+      "unit_price": 5965.17,
+      "taxable_value": 47721.36,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8589.84
+    }
+  ],
+  "taxable_value": 124563.41,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 22421.41,
+  "total_tax": 22421.41,
+  "invoice_total": 146984.82,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00291.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

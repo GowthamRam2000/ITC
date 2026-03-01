@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00137",
+  "invoice_no": "INV/26/00137",
+  "invoice_date": "2026-01-26",
+  "supplier_name": "MURTHY, DASH AND MITAL",
+  "supplier_gstin": "09MDSQH6626E7Z6",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 2,
+      "unit_price": 6696.29,
+      "taxable_value": 13392.58,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2410.66
+    }
+  ],
+  "taxable_value": 13392.58,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 2410.66,
+  "total_tax": 2410.66,
+  "invoice_total": 15803.24,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00137.jpg",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 482.13
+}

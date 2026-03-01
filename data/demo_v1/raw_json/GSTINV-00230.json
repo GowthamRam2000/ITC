@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00230",
+  "invoice_no": "INV/26/00230",
+  "invoice_date": "2026-01-25",
+  "supplier_name": "KARAN-PATEL",
+  "supplier_gstin": "33JVPQH2825O4ZC",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 6,
+      "unit_price": 4708.99,
+      "taxable_value": 28253.94,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3390.47
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 2,
+      "unit_price": 220.24,
+      "taxable_value": 440.48,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 22.02
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 9,
+      "unit_price": 990.74,
+      "taxable_value": 8916.66,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 445.83
+    }
+  ],
+  "taxable_value": 37611.08,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3858.32,
+  "total_tax": 3858.32,
+  "invoice_total": 41469.4,
+  "effective_rate": 10.26,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00230.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

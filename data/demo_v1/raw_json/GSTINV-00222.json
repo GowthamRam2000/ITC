@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00222",
+  "invoice_no": "INV/26/00222",
+  "invoice_date": "2026-02-02",
+  "supplier_name": "SANDAL-NARAYANAN",
+  "supplier_gstin": "08FWHUR9979C1ZW",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 1,
+      "unit_price": 3214.09,
+      "taxable_value": 3214.09,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 578.54
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 1,
+      "unit_price": 127.07,
+      "taxable_value": 127.07,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 35.58
+    }
+  ],
+  "taxable_value": 3341.16,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 614.12,
+  "total_tax": 614.12,
+  "invoice_total": 3955.28,
+  "effective_rate": 18.38,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00222.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

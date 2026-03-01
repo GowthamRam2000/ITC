@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00147",
+  "invoice_no": "INV/26/00147",
+  "invoice_date": "2026-01-15",
+  "supplier_name": "VARMA-NAYAK",
+  "supplier_gstin": "36XNVOI7522W5ZM",
+  "supplier_state_code": "36",
+  "supplier_state_name": "Telangana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 4666.08,
+      "taxable_value": 41994.72,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5039.37
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 12,
+      "unit_price": 1087.1,
+      "taxable_value": 13045.2,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2348.14
+    }
+  ],
+  "taxable_value": 55039.92,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7387.51,
+  "total_tax": 7387.51,
+  "invoice_total": 62427.43,
+  "effective_rate": 13.42,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00147.pdf",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 2519.68
+}

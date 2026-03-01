@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00145",
+  "invoice_no": "INV/26/00145",
+  "invoice_date": "2026-01-29",
+  "supplier_name": "KALA-VAIDYA",
+  "supplier_gstin": "06YKLUS1498S2ZS",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 1,
+      "unit_price": 4564.45,
+      "taxable_value": 4564.45,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 821.6
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 9,
+      "unit_price": 7957.88,
+      "taxable_value": 71620.92,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3581.05
+    }
+  ],
+  "taxable_value": 76185.37,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 4402.65,
+  "total_tax": 4402.65,
+  "invoice_total": 80588.02,
+  "effective_rate": 5.78,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00145.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

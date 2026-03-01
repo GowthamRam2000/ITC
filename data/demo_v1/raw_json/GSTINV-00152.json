@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00152",
+  "invoice_no": "INV/26/00152",
+  "invoice_date": "2026-01-15",
+  "supplier_name": "SHAH GROUP",
+  "supplier_gstin": "32NZVZA6496T4Z2",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 3353.64,
+      "taxable_value": 6707.28,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1207.31
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 12,
+      "unit_price": 2490.11,
+      "taxable_value": 29881.32,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8366.77
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 6,
+      "unit_price": 4429.91,
+      "taxable_value": 26579.46,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7442.25
+    }
+  ],
+  "taxable_value": 63168.06,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 17016.33,
+  "total_tax": 17016.33,
+  "invoice_total": 80184.39,
+  "effective_rate": 26.94,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00152.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

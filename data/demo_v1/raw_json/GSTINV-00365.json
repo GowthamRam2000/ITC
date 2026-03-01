@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00365",
+  "invoice_no": "INV/26/00365",
+  "invoice_date": "2026-02-23",
+  "supplier_name": "CHAND-KALA",
+  "supplier_gstin": "33YVWNP6968Q4ZB",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 3080.58,
+      "taxable_value": 27725.22,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3327.03
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 7,
+      "unit_price": 4272.36,
+      "taxable_value": 29906.52,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1495.33
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 6,
+      "unit_price": 8246.32,
+      "taxable_value": 49477.92,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5937.35
+    }
+  ],
+  "taxable_value": 107109.66,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 10759.71,
+  "total_tax": 10759.71,
+  "invoice_total": 117869.37,
+  "effective_rate": 10.05,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00365.jpg",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 10759.71
+}

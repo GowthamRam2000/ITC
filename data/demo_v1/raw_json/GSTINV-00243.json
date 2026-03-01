@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00243",
+  "invoice_no": "INV/26/00243",
+  "invoice_date": "2026-02-02",
+  "supplier_name": "SAHA PLC",
+  "supplier_gstin": "08XPDOA9047B7ZX",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 8,
+      "unit_price": 4270.49,
+      "taxable_value": 34163.92,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1708.2
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 9,
+      "unit_price": 6430.8,
+      "taxable_value": 57877.2,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2893.86
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 4,
+      "unit_price": 1232.13,
+      "taxable_value": 4928.52,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 887.13
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 4,
+      "unit_price": 5547.22,
+      "taxable_value": 22188.88,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3994.0
+    }
+  ],
+  "taxable_value": 119158.52,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9483.19,
+  "total_tax": 9483.19,
+  "invoice_total": 128641.71,
+  "effective_rate": 7.96,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00243.png",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 3525.26
+}

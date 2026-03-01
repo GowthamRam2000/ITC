@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00111",
+  "invoice_no": "INV/26/00111",
+  "invoice_date": "2026-02-21",
+  "supplier_name": "PINGLE PLC",
+  "supplier_gstin": "08HWYKV3429E2Z9",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 8,
+      "unit_price": 2751.6,
+      "taxable_value": 22012.8,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3962.3
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 9,
+      "unit_price": 3122.45,
+      "taxable_value": 28102.05,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1405.1
+    }
+  ],
+  "taxable_value": 50114.85,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 5367.4,
+  "total_tax": 5367.4,
+  "invoice_total": 55482.25,
+  "effective_rate": 10.71,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00111.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

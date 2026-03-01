@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00170",
+  "invoice_no": "INV/26/00170",
+  "invoice_date": "2026-02-02",
+  "supplier_name": "REDDY-NARAYANAN",
+  "supplier_gstin": "29ASXOS5538H4ZT",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 3,
+      "unit_price": 3531.79,
+      "taxable_value": 10595.37,
+      "gst_rate": 18,
+      "cgst": 953.59,
+      "sgst": 953.59,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 10595.37,
+  "cgst": 953.59,
+  "sgst": 953.59,
+  "igst": 0.0,
+  "total_tax": 1907.18,
+  "invoice_total": 12502.55,
+  "effective_rate": 18.0,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00170.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

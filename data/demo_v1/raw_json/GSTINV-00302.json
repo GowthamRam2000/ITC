@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00302",
+  "invoice_no": "INV/26/00302",
+  "invoice_date": "2026-02-25",
+  "supplier_name": "THAKKAR PLC",
+  "supplier_gstin": "29DFMTY3964D6ZI",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 6,
+      "unit_price": 2675.27,
+      "taxable_value": 16051.62,
+      "gst_rate": 5,
+      "cgst": 401.29,
+      "sgst": 401.29,
+      "igst": 0.0
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 5,
+      "unit_price": 2583.56,
+      "taxable_value": 12917.8,
+      "gst_rate": 18,
+      "cgst": 1162.6,
+      "sgst": 1162.6,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 28969.42,
+  "cgst": 1563.89,
+  "sgst": 1563.89,
+  "igst": 0.0,
+  "total_tax": 3127.78,
+  "invoice_total": 32097.2,
+  "effective_rate": 10.8,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00302.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 161.64
+}

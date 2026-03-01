@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00385",
+  "invoice_no": "INV/26/00385",
+  "invoice_date": "2026-01-28",
+  "supplier_name": "BUCH LLC",
+  "supplier_gstin": "07AJCCO8117X9ZJ",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 8,
+      "unit_price": 6668.11,
+      "taxable_value": 53344.88,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9602.08
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 5,
+      "unit_price": 1052.41,
+      "taxable_value": 5262.05,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 263.1
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 11,
+      "unit_price": 389.16,
+      "taxable_value": 4280.76,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 214.04
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 1463.72,
+      "taxable_value": 13173.48,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1580.82
+    }
+  ],
+  "taxable_value": 76061.17,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11660.04,
+  "total_tax": 11660.04,
+  "invoice_total": 87721.21,
+  "effective_rate": 15.33,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00385.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

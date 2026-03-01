@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00265",
+  "invoice_no": "INV/26/00265",
+  "invoice_date": "2026-02-03",
+  "supplier_name": "BAIL LTD",
+  "supplier_gstin": "27UFRMG3859B7Z7",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 7,
+      "unit_price": 3828.62,
+      "taxable_value": 26800.34,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4824.06
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 1,
+      "unit_price": 1602.16,
+      "taxable_value": 1602.16,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 80.11
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 12,
+      "unit_price": 1495.53,
+      "taxable_value": 17946.36,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3230.34
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 3,
+      "unit_price": 2738.41,
+      "taxable_value": 8215.23,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1478.74
+    }
+  ],
+  "taxable_value": 54564.09,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9613.25,
+  "total_tax": 9613.25,
+  "invoice_total": 64177.34,
+  "effective_rate": 17.62,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00265.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00370",
+  "invoice_no": "INV/26/00370",
+  "invoice_date": "2026-02-26",
+  "supplier_name": "DIVAN-AGATE",
+  "supplier_gstin": "06SNEZP6210G3ZR",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 1,
+      "unit_price": 3307.36,
+      "taxable_value": 3307.36,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 165.37
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 5987.33,
+      "taxable_value": 29936.65,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 8382.26
+    }
+  ],
+  "taxable_value": 33244.01,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 8547.63,
+  "total_tax": 8547.63,
+  "invoice_total": 41791.64,
+  "effective_rate": 25.71,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00370.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

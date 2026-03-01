@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00172",
+  "invoice_no": "INV/26/00172",
+  "invoice_date": "2026-02-16",
+  "supplier_name": "SALVI GROUP",
+  "supplier_gstin": "08UKJNS2237K2ZZ",
+  "supplier_state_code": "08",
+  "supplier_state_name": "Rajasthan",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 6,
+      "unit_price": 1951.58,
+      "taxable_value": 11709.48,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2107.71
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 5,
+      "unit_price": 1651.73,
+      "taxable_value": 8258.65,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1486.56
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 8,
+      "unit_price": 6297.0,
+      "taxable_value": 50376.0,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6045.12
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 12,
+      "unit_price": 2148.43,
+      "taxable_value": 25781.16,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3093.74
+    }
+  ],
+  "taxable_value": 96125.29,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 12733.13,
+  "total_tax": 12733.13,
+  "invoice_total": 108858.42,
+  "effective_rate": 13.25,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00172.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

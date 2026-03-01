@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00393",
+  "invoice_no": "INV/26/00393",
+  "invoice_date": "2026-02-02",
+  "supplier_name": "CHANDRAN, MUNSHI AND SANE",
+  "supplier_gstin": "27RJMNV1119M7ZC",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 6,
+      "unit_price": 2989.51,
+      "taxable_value": 17937.06,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 896.85
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 8,
+      "unit_price": 1901.88,
+      "taxable_value": 15215.04,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2738.71
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 2,
+      "unit_price": 2452.78,
+      "taxable_value": 4905.56,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 883.0
+    }
+  ],
+  "taxable_value": 38057.66,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 4518.56,
+  "total_tax": 4518.56,
+  "invoice_total": 42576.22,
+  "effective_rate": 11.87,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00393.pdf",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1581.5
+}

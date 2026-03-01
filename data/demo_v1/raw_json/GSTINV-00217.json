@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00217",
+  "invoice_no": "INV/26/00217",
+  "invoice_date": "2026-02-17",
+  "supplier_name": "SONI, SWAMINATHAN AND SEM",
+  "supplier_gstin": "07ECYOC5529Z5ZF",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 10,
+      "unit_price": 7597.0,
+      "taxable_value": 75970.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13674.6
+    }
+  ],
+  "taxable_value": 75970.0,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 13674.6,
+  "total_tax": 13674.6,
+  "invoice_total": 89644.6,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00217.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1201.18
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00201",
+  "invoice_no": "INV/26/00201",
+  "invoice_date": "2026-01-03",
+  "supplier_name": "SANGHA, PRABHAKAR AND BISWAS",
+  "supplier_gstin": "33RKOLI6416S9ZC",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 12,
+      "unit_price": 6029.04,
+      "taxable_value": 72348.48,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 13022.73
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 3,
+      "unit_price": 3723.94,
+      "taxable_value": 11171.82,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3128.11
+    }
+  ],
+  "taxable_value": 83520.3,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 16150.84,
+  "total_tax": 16150.84,
+  "invoice_total": 99671.14,
+  "effective_rate": 19.34,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00201.pdf",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 5652.79
+}

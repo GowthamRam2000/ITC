@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00126",
+  "invoice_no": "INV/26/00126",
+  "invoice_date": "2026-01-06",
+  "supplier_name": "BOASE-MALLICK",
+  "supplier_gstin": "07QRKKW6042L1ZL",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 5,
+      "unit_price": 7183.05,
+      "taxable_value": 35915.25,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6464.75
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 4,
+      "unit_price": 1246.15,
+      "taxable_value": 4984.6,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 249.23
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 6,
+      "unit_price": 2377.74,
+      "taxable_value": 14266.44,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2567.96
+    }
+  ],
+  "taxable_value": 55166.29,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 9281.94,
+  "total_tax": 9281.94,
+  "invoice_total": 64448.23,
+  "effective_rate": 16.83,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00126.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 732.54
+}

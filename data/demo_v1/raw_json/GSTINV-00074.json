@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00074",
+  "invoice_no": "INV/26/00074",
+  "invoice_date": "2026-02-05",
+  "supplier_name": "CHANDER AND SONS",
+  "supplier_gstin": "24NSFAA2655H4ZT",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 4,
+      "unit_price": 7975.5,
+      "taxable_value": 31902.0,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5742.36
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 1,
+      "unit_price": 6903.43,
+      "taxable_value": 6903.43,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 345.17
+    }
+  ],
+  "taxable_value": 38805.43,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6087.53,
+  "total_tax": 6087.53,
+  "invoice_total": 44892.96,
+  "effective_rate": 15.69,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00074.pdf",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 2130.64
+}

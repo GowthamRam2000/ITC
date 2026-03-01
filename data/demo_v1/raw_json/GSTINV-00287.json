@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00287",
+  "invoice_no": "INV/26/00287",
+  "invoice_date": "2026-02-11",
+  "supplier_name": "MANNE, UPADHYAY AND MAHAJAN",
+  "supplier_gstin": "09VNHBB0140V5ZM",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 1,
+      "unit_price": 1074.78,
+      "taxable_value": 1074.78,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 300.94
+    }
+  ],
+  "taxable_value": 1074.78,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 300.94,
+  "total_tax": 300.94,
+  "invoice_total": 1375.72,
+  "effective_rate": 28.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00287.png",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 28.98
+}

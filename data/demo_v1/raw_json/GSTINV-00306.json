@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00306",
+  "invoice_no": "INV/26/00306",
+  "invoice_date": "2026-02-11",
+  "supplier_name": "DUBEY, BORDE AND SINGH",
+  "supplier_gstin": "27CNIPM9310Q6ZO",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 2,
+      "unit_price": 4660.11,
+      "taxable_value": 9320.22,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 466.01
+    }
+  ],
+  "taxable_value": 9320.22,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 466.01,
+  "total_tax": 466.01,
+  "invoice_total": 9786.23,
+  "effective_rate": 5.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00306.png",
+  "mismatch_type": "rate_mismatch",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 1211.63
+}

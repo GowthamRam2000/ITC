@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00004",
+  "invoice_no": "INV/26/00004",
+  "invoice_date": "2026-01-31",
+  "supplier_name": "BALAN INC",
+  "supplier_gstin": "06KOGSA9577V4ZN",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 2750.61,
+      "taxable_value": 27506.1,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4951.1
+    }
+  ],
+  "taxable_value": 27506.1,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 4951.1,
+  "total_tax": 4951.1,
+  "invoice_total": 32457.2,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00004.png",
+  "mismatch_type": "period_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 990.22
+}

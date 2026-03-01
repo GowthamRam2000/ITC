@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00090",
+  "invoice_no": "INV/26/00090",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "MURTHY AND SONS",
+  "supplier_gstin": "33KTZLA2555S4ZS",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 11,
+      "unit_price": 5052.38,
+      "taxable_value": 55576.18,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10003.71
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 3,
+      "unit_price": 3010.83,
+      "taxable_value": 9032.49,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2529.1
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 8,
+      "unit_price": 996.12,
+      "taxable_value": 7968.96,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 398.45
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 2,
+      "unit_price": 1092.66,
+      "taxable_value": 2185.32,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 393.36
+    }
+  ],
+  "taxable_value": 74762.95,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 13324.62,
+  "total_tax": 13324.62,
+  "invoice_total": 88087.57,
+  "effective_rate": 17.82,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00090.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

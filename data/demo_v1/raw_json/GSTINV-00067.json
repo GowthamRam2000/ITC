@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00067",
+  "invoice_no": "INV/26/00067",
+  "invoice_date": "2026-02-14",
+  "supplier_name": "BHAGAT, CHAUDHARI AND BHAT",
+  "supplier_gstin": "29JZVYU2273O5ZU",
+  "supplier_state_code": "29",
+  "supplier_state_name": "Karnataka",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 5,
+      "unit_price": 7938.74,
+      "taxable_value": 39693.7,
+      "gst_rate": 28,
+      "cgst": 5557.12,
+      "sgst": 5557.12,
+      "igst": 0.0
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 3,
+      "unit_price": 1035.32,
+      "taxable_value": 3105.96,
+      "gst_rate": 18,
+      "cgst": 279.54,
+      "sgst": 279.54,
+      "igst": 0.0
+    }
+  ],
+  "taxable_value": 42799.66,
+  "cgst": 5836.66,
+  "sgst": 5836.66,
+  "igst": 0.0,
+  "total_tax": 11673.32,
+  "invoice_total": 54472.98,
+  "effective_rate": 27.27,
+  "inter_state": false,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00067.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

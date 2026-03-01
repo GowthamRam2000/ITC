@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00105",
+  "invoice_no": "INV/26/00105",
+  "invoice_date": "2026-02-14",
+  "supplier_name": "BEHL-CHANDA",
+  "supplier_gstin": "24NQNKS0562J2ZW",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 6,
+      "unit_price": 3394.33,
+      "taxable_value": 20365.98,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5702.47
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 5,
+      "unit_price": 5974.9,
+      "taxable_value": 29874.5,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1493.73
+    }
+  ],
+  "taxable_value": 50240.48,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7196.2,
+  "total_tax": 7196.2,
+  "invoice_total": 57436.68,
+  "effective_rate": 14.32,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00105.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

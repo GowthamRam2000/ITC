@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00043",
+  "invoice_no": "INV/26/00043",
+  "invoice_date": "2026-01-30",
+  "supplier_name": "ISSAC, DUA AND PRAKASH",
+  "supplier_gstin": "06ILBVB8865O9Z2",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 4105.77,
+      "taxable_value": 41057.7,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7390.39
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 1,
+      "unit_price": 3895.38,
+      "taxable_value": 3895.38,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 467.45
+    }
+  ],
+  "taxable_value": 44953.08,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7857.84,
+  "total_tax": 7857.84,
+  "invoice_total": 52810.92,
+  "effective_rate": 17.48,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00043.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

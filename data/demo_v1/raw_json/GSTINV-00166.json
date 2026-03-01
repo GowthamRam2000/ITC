@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00166",
+  "invoice_no": "INV/26/00166",
+  "invoice_date": "2026-02-20",
+  "supplier_name": "NAYAK-NAGARAJAN",
+  "supplier_gstin": "32CDMGW2841W1ZX",
+  "supplier_state_code": "32",
+  "supplier_state_name": "Kerala",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 11,
+      "unit_price": 1841.41,
+      "taxable_value": 20255.51,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3645.99
+    }
+  ],
+  "taxable_value": 20255.51,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 3645.99,
+  "total_tax": 3645.99,
+  "invoice_total": 23901.5,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00166.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 387.57
+}

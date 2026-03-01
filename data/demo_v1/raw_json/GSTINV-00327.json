@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00327",
+  "invoice_no": "INV/26/00327",
+  "invoice_date": "2026-02-01",
+  "supplier_name": "RAJAGOPALAN GROUP",
+  "supplier_gstin": "24FLOJP1908L6ZE",
+  "supplier_state_code": "24",
+  "supplier_state_name": "Gujarat",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 12,
+      "unit_price": 4625.12,
+      "taxable_value": 55501.44,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9990.26
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 314.75,
+      "taxable_value": 3147.5,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 566.55
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 3,
+      "unit_price": 1407.93,
+      "taxable_value": 4223.79,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 211.19
+    },
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 10,
+      "unit_price": 5398.05,
+      "taxable_value": 53980.5,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 9716.49
+    }
+  ],
+  "taxable_value": 116853.23,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 20484.49,
+  "total_tax": 20484.49,
+  "invoice_total": 137337.72,
+  "effective_rate": 17.53,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00327.pdf",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00364",
+  "invoice_no": "INV/26/00364",
+  "invoice_date": "2026-01-28",
+  "supplier_name": "GUPTA-DAS",
+  "supplier_gstin": "06BGCOC2980N9Z8",
+  "supplier_state_code": "06",
+  "supplier_state_name": "Haryana",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 11,
+      "unit_price": 8482.86,
+      "taxable_value": 93311.46,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 26127.21
+    },
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 12,
+      "unit_price": 1164.92,
+      "taxable_value": 13979.04,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3914.13
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 10,
+      "unit_price": 1713.74,
+      "taxable_value": 17137.4,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 856.87
+    },
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 12,
+      "unit_price": 3681.32,
+      "taxable_value": 44175.84,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2208.79
+    }
+  ],
+  "taxable_value": 168603.74,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 33107.0,
+  "total_tax": 33107.0,
+  "invoice_total": 201710.74,
+  "effective_rate": 19.64,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00364.png",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 11587.45
+}

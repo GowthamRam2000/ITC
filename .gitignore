@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+backend/runtime/
+backend/runtime_test/
+backend/firebase.json
+.env
+.env.*
+!.env.example
+*firebase-adminsdk*.json
+*service-account*.json
+*gcp*.json

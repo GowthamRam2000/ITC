@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00069",
+  "invoice_no": "INV/26/00069",
+  "invoice_date": "2026-02-09",
+  "supplier_name": "HANDA AND SONS",
+  "supplier_gstin": "07YAVUE7820J2ZL",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 9,
+      "unit_price": 4258.99,
+      "taxable_value": 38330.91,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 10732.65
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 9,
+      "unit_price": 4042.01,
+      "taxable_value": 36378.09,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4365.37
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 2,
+      "unit_price": 2891.13,
+      "taxable_value": 5782.26,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 693.87
+    },
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 11,
+      "unit_price": 2275.88,
+      "taxable_value": 25034.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4506.24
+    }
+  ],
+  "taxable_value": 105525.94,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 20298.13,
+  "total_tax": 20298.13,
+  "invoice_total": 125824.07,
+  "effective_rate": 19.24,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00069.jpg",
+  "mismatch_type": "value_drift",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 1284.85
+}

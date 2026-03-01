@@ -1,0 +1,28 @@
+{
+  "dataset_version": "demo_v1",
+  "created_at_utc": "2026-02-28T04:09:36Z",
+  "seed": 42,
+  "synthetic_invoice_count": 400,
+  "gstr2b_entry_count": 352,
+  "public_doc_count": 80,
+  "mismatch_distribution": {
+    "none": 200,
+    "rate_mismatch": 32,
+    "period_mismatch": 24,
+    "gstin_status_risk": 24,
+    "value_drift": 32,
+    "missing_in_2b": 48,
+    "hsn_mismatch": 40
+  },
+  "paths": {
+    "invoice_truth_jsonl": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/invoice_truth.jsonl",
+    "gstr2b_truth_jsonl": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/gstr2b_truth.jsonl",
+    "gstr2b_truth_csv": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/gstr2b_truth.csv",
+    "status_seed_map": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/status_seed_map.json",
+    "model_profile": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/model_profile.json"
+  },
+  "licenses": {
+    "synthetic_data": "Generated in-script (demo data, no real taxpayer)",
+    "cord_v2_if_downloaded": "CC BY 4.0"
+  }
+}

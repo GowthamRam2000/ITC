@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00213",
+  "invoice_no": "INV/26/00213",
+  "invoice_date": "2026-01-24",
+  "supplier_name": "KURUVILLA-OAK",
+  "supplier_gstin": "07MQXNI7478J6ZZ",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 10,
+      "unit_price": 5864.43,
+      "taxable_value": 58644.3,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7037.32
+    }
+  ],
+  "taxable_value": 58644.3,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7037.32,
+  "total_tax": 7037.32,
+  "invoice_total": 65681.62,
+  "effective_rate": 12.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00213.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

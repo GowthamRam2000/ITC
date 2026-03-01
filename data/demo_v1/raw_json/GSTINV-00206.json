@@ -1,0 +1,39 @@
+{
+  "doc_id": "GSTINV-00206",
+  "invoice_no": "INV/26/00206",
+  "invoice_date": "2026-02-22",
+  "supplier_name": "MADAN, YOHANNAN AND SULE",
+  "supplier_gstin": "07KIALX8803U3Z7",
+  "supplier_state_code": "07",
+  "supplier_state_name": "Delhi",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Electrical transformers",
+      "hsn": "8504",
+      "qty": 11,
+      "unit_price": 3161.47,
+      "taxable_value": 34776.17,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6259.71
+    }
+  ],
+  "taxable_value": 34776.17,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 6259.71,
+  "total_tax": 6259.71,
+  "invoice_total": 41035.88,
+  "effective_rate": 18.0,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00206.pdf",
+  "mismatch_type": "missing_in_2b",
+  "expected_severity": "CRITICAL",
+  "amount_at_risk": 6259.71
+}

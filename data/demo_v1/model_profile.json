@@ -1,0 +1,8 @@
+{
+  "ocr": "mistral-ocr-latest",
+  "extract_fast": "ministral-3b-2512",
+  "extract_default": "ministral-8b-2512",
+  "extract_fallback": "ministral-14b-2512",
+  "reasoning_report_chat": "mistral-large-latest",
+  "voice_stt": "voxtral-mini-latest"
+}

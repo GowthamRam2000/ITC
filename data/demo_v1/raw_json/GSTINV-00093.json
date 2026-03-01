@@ -1,0 +1,50 @@
+{
+  "doc_id": "GSTINV-00093",
+  "invoice_no": "INV/26/00093",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "ANDRA GROUP",
+  "supplier_gstin": "19VQVSH6011J2ZB",
+  "supplier_state_code": "19",
+  "supplier_state_name": "West Bengal",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 7,
+      "unit_price": 3624.84,
+      "taxable_value": 25373.88,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7104.69
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 10,
+      "unit_price": 3335.49,
+      "taxable_value": 33354.9,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 4002.59
+    }
+  ],
+  "taxable_value": 58728.78,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 11107.28,
+  "total_tax": 11107.28,
+  "invoice_total": 69836.06,
+  "effective_rate": 18.91,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00093.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "GSTINV-00024",
+  "invoice_no": "INV/26/00024",
+  "invoice_date": "2026-01-29",
+  "supplier_name": "NAIR, BHALLA AND KARNIK",
+  "supplier_gstin": "09VHHPZ4153R9ZO",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 12,
+      "unit_price": 2121.19,
+      "taxable_value": 25454.28,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3054.51
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 4,
+      "unit_price": 7293.39,
+      "taxable_value": 29173.56,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5251.24
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 1,
+      "unit_price": 2786.32,
+      "taxable_value": 2786.32,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 501.54
+    }
+  ],
+  "taxable_value": 57414.16,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 8807.29,
+  "total_tax": 8807.29,
+  "invoice_total": 66221.45,
+  "effective_rate": 15.34,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00024.pdf",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 3082.55
+}

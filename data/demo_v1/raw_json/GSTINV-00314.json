@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00314",
+  "invoice_no": "INV/26/00314",
+  "invoice_date": "2026-02-10",
+  "supplier_name": "BATRA LLC",
+  "supplier_gstin": "01WIVKD5450X4Z3",
+  "supplier_state_code": "01",
+  "supplier_state_name": "Jammu and Kashmir",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Vehicle parts",
+      "hsn": "8708",
+      "qty": 8,
+      "unit_price": 2770.11,
+      "taxable_value": 22160.88,
+      "gst_rate": 28,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6205.05
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 4,
+      "unit_price": 2924.83,
+      "taxable_value": 11699.32,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2105.88
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 1,
+      "unit_price": 8418.42,
+      "taxable_value": 8418.42,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1515.32
+    },
+    {
+      "description": "Medicaments",
+      "hsn": "3004",
+      "qty": 12,
+      "unit_price": 3671.61,
+      "taxable_value": 44059.32,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 5287.12
+    }
+  ],
+  "taxable_value": 86337.94,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 15113.37,
+  "total_tax": 15113.37,
+  "invoice_total": 101451.31,
+  "effective_rate": 17.5,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00314.png",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

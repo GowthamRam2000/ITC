@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00114",
+  "invoice_no": "INV/26/00114",
+  "invoice_date": "2026-02-26",
+  "supplier_name": "PARMAR AND SONS",
+  "supplier_gstin": "27VCWVD9094X7ZV",
+  "supplier_state_code": "27",
+  "supplier_state_name": "Maharashtra",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 3,
+      "unit_price": 3086.04,
+      "taxable_value": 9258.12,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1666.46
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 5,
+      "unit_price": 2465.18,
+      "taxable_value": 12325.9,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1479.11
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 1,
+      "unit_price": 5266.21,
+      "taxable_value": 5266.21,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 631.95
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 4,
+      "unit_price": 5544.19,
+      "taxable_value": 22176.76,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3991.82
+    }
+  ],
+  "taxable_value": 49026.99,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 7769.34,
+  "total_tax": 7769.34,
+  "invoice_total": 56796.33,
+  "effective_rate": 15.85,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00114.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}

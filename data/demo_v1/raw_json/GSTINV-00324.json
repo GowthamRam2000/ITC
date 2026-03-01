@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00324",
+  "invoice_no": "INV/26/00324",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "DUGAR, BORAH AND SATHE",
+  "supplier_gstin": "09ODCLJ5464O7ZQ",
+  "supplier_state_code": "09",
+  "supplier_state_name": "Uttar Pradesh",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Cartons and paper boxes",
+      "hsn": "4819",
+      "qty": 5,
+      "unit_price": 3324.27,
+      "taxable_value": 16621.35,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2991.84
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 8,
+      "unit_price": 2079.16,
+      "taxable_value": 16633.28,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1995.99
+    },
+    {
+      "description": "Sugar",
+      "hsn": "1701",
+      "qty": 6,
+      "unit_price": 7674.37,
+      "taxable_value": 46046.22,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 2302.31
+    },
+    {
+      "description": "Plastic packing materials",
+      "hsn": "3923",
+      "qty": 9,
+      "unit_price": 4417.19,
+      "taxable_value": 39754.71,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7155.85
+    }
+  ],
+  "taxable_value": 119055.56,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 14445.99,
+  "total_tax": 14445.99,
+  "invoice_total": 133501.55,
+  "effective_rate": 12.13,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00324.png",
+  "mismatch_type": "hsn_mismatch",
+  "expected_severity": "WARNING",
+  "amount_at_risk": 5056.1
+}

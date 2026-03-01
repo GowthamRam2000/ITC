@@ -1,0 +1,72 @@
+{
+  "doc_id": "GSTINV-00390",
+  "invoice_no": "INV/26/00390",
+  "invoice_date": "2026-02-04",
+  "supplier_name": "KALE, SANI AND SETH",
+  "supplier_gstin": "33DSZNZ6574E6ZI",
+  "supplier_state_code": "33",
+  "supplier_state_name": "Tamil Nadu",
+  "buyer_name": "DEMO BUYER PRIVATE LIMITED",
+  "buyer_gstin": "29AAACD1234F1Z5",
+  "buyer_state_code": "29",
+  "buyer_address": "14, Residency Road, Bengaluru, Karnataka",
+  "place_of_supply": "Karnataka",
+  "line_items": [
+    {
+      "description": "Rice",
+      "hsn": "1006",
+      "qty": 12,
+      "unit_price": 6607.59,
+      "taxable_value": 79291.08,
+      "gst_rate": 5,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 3964.55
+    },
+    {
+      "description": "Iron and steel products",
+      "hsn": "7208",
+      "qty": 4,
+      "unit_price": 1869.92,
+      "taxable_value": 7479.68,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1346.34
+    },
+    {
+      "description": "IT services",
+      "hsn": "9983",
+      "qty": 10,
+      "unit_price": 748.49,
+      "taxable_value": 7484.9,
+      "gst_rate": 18,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 1347.28
+    },
+    {
+      "description": "Processed food products",
+      "hsn": "2106",
+      "qty": 10,
+      "unit_price": 5380.88,
+      "taxable_value": 53808.8,
+      "gst_rate": 12,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 6457.06
+    }
+  ],
+  "taxable_value": 148064.46,
+  "cgst": 0.0,
+  "sgst": 0.0,
+  "igst": 13115.23,
+  "total_tax": 13115.23,
+  "invoice_total": 161179.69,
+  "effective_rate": 8.86,
+  "inter_state": true,
+  "doc_path": "/Users/gowthamram/PycharmProjects/ITC/data/demo_v1/docs/synthetic/GSTINV-00390.jpg",
+  "mismatch_type": "none",
+  "expected_severity": "INFO",
+  "amount_at_risk": 0.0
+}
